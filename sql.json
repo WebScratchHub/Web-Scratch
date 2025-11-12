@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to SQL",
+    "explanation": "SQL (Structured Query Language) is a standard language for storing, manipulating, and retrieving data in relational databases. It allows you to perform operations like querying data, inserting new records, updating existing ones, and deleting records.",
+    "example": "-- This is a SQL comment\nSELECT * FROM Customers;"
+  },
+  {
+    "title": "2. The SELECT Statement",
+    "explanation": "The `SELECT` statement is used to retrieve data from a database. You can select specific columns or all columns from a table.",
+    "example": "-- Selects the 'CustomerName' and 'City' columns from the 'Customers' table\nSELECT CustomerName, City FROM Customers;"
+  },
+  {
+    "title": "3. The WHERE Clause",
+    "explanation": "The `WHERE` clause is used to filter records. It is used to extract only those records that fulfill a specified condition. You can use operators like `=`, `>`, `<`, `>=`, `<=`, `!=`, `AND`, `OR`, and `LIKE`.",
+    "example": "-- Selects all customers from Germany\nSELECT * FROM Customers\nWHERE Country = 'Germany';"
+  },
+  {
+    "title": "4. The ORDER BY Clause",
+    "explanation": "The `ORDER BY` keyword is used to sort the result set in ascending or descending order. By default, it sorts the records in ascending order (`ASC`). To sort in descending order, use the `DESC` keyword.",
+    "example": "-- Selects all customers, sorted by CustomerName alphabetically\nSELECT * FROM Customers\nORDER BY CustomerName ASC;"
+  },
+  {
+    "title": "5. The INSERT INTO Statement",
+    "explanation": "The `INSERT INTO` statement is used to insert new records in a table. You specify the table name and then provide the values for the columns.",
+    "example": "-- Inserts a new customer into the Customers table\nINSERT INTO Customers (CustomerName, City, Country)\nVALUES ('Cardinal', 'Stavanger', 'Norway');"
+  },
+  {
+    "title": "6. The UPDATE Statement",
+    "explanation": "The `UPDATE` statement is used to modify the existing records in a table. You specify which table to update, which columns to change, and use a `WHERE` clause to select which records to update. Be careful: without a `WHERE` clause, all records will be updated!",
+    "example": "-- Updates the city for the customer with CustomerID = 1\nUPDATE Customers\nSET City = 'Frankfurt'\nWHERE CustomerID = 1;"
+  },
+  {
+    "title": "7. The DELETE Statement",
+    "explanation": "The `DELETE` statement is used to delete existing records in a table. A `WHERE` clause specifies which record or records that should be deleted. If you omit the `WHERE` clause, all records in the table will be deleted!",
+    "example": "-- Deletes the customer with the name 'Alfreds Futterkiste'\nDELETE FROM Customers\nWHERE CustomerName = 'Alfreds Futterkiste';"
+  },
+  {
+    "title": "8. The JOIN Clause",
+    "explanation": "A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them. The most common type is `INNER JOIN`, which returns records that have matching values in both tables.",
+    "example": "-- Selects all orders with customer information\nSELECT Orders.OrderID, Customers.CustomerName\nFROM Orders\nINNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;"
+  },
+  {
+    "title": "9. The GROUP BY Clause",
+    "explanation": "The `GROUP BY` statement groups rows that have the same values into summary rows, like 'find the number of customers in each country'. It is often used with aggregate functions like `COUNT()`, `MAX()`, `MIN()`, `SUM()`, `AVG()` to group the result-set by one or more columns.",
+    "example": "-- Counts the number of customers in each country\nSELECT COUNT(CustomerID), Country\nFROM Customers\nGROUP BY Country;"
+  },
+  {
+    "title": "10. Aggregate Functions (COUNT, AVG, SUM)",
+    "explanation": "An aggregate function performs a calculation on a set of values and returns a single value. Common aggregate functions are `COUNT()` (counts rows), `AVG()` (calculates the average value), and `SUM()` (calculates the sum of values).",
+    "example": "-- Finds the average price of all products\nSELECT AVG(Price) FROM Products;"
+  }
+]

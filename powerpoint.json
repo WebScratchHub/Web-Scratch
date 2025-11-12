@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. The PowerPoint Interface",
+    "explanation": "The PowerPoint interface includes the Ribbon at the top with tabs for commands, a slide navigation pane on the left, the main slide editing area in the center, and a notes pane at the bottom. This layout allows you to see your slide structure, edit the current slide, and add speaker notes all at once.",
+    "tip": "You can change the view (e.g., Normal, Slide Sorter, Reading View) using the buttons in the bottom-right corner of the window."
+  },
+  {
+    "title": "2. Adding New Slides and Layouts",
+    "explanation": "To add a new slide, go to the Home tab and click the 'New Slide' button. You can click the top half of the button to add a slide with the default layout, or the bottom half to choose a specific layout (like 'Title and Content' or 'Two Content'). Layouts help you structure your content consistently.",
+    "tip": "Right-click a slide in the left-hand navigation pane and choose 'Duplicate Slide' to quickly create a copy."
+  },
+  {
+    "title": "3. Using Design Themes",
+    "explanation": "Themes provide a quick way to give your presentation a professional and consistent look. Go to the Design tab to browse and apply a theme. A theme controls the color palette, fonts, and slide layouts for the entire presentation. You can also customize the colors and fonts of a theme in the 'Variants' group.",
+    "tip": "Applying a theme will change the design of all your existing slides, so it's a good idea to pick one early."
+  },
+  {
+    "title": "4. Adding and Formatting Text",
+    "explanation": "Text is usually added to slides inside text boxes, which are part of the slide layout. You can also add your own text box from the Insert tab. Formatting text is done using the Font and Paragraph groups on the Home tab, where you can change font, size, color, alignment, and create lists.",
+    "tip": "Use the Format Painter (on the Home tab) to quickly copy formatting from one piece of text to another."
+  },
+  {
+    "title": "5. Inserting Images and Shapes",
+    "explanation": "Visuals are key to a good presentation. Use the Insert tab to add Pictures, Shapes, Icons, and SmartArt. Once an object is inserted, a contextual 'Format' tab will appear on the Ribbon, giving you options to change its style, color, effects, and arrangement.",
+    "tip": "Use the 'Align' tool on the Format tab to perfectly align multiple objects on your slide."
+  },
+  {
+    "title": "6. Understanding Slide Transitions",
+    "explanation": "Transitions are the visual effects that occur when you move from one slide to the next during a presentation. You can apply transitions from the Transitions tab. You can apply one transition to all slides or choose a different one for each. Keep them subtle and consistent for a professional look.",
+    "tip": "The 'Morph' transition is a powerful tool that can create smooth animations of objects moving or changing shape between two slides."
+  },
+  {
+    "title": "7. Using Animations",
+    "explanation": "Animations control how objects appear, disappear, or move on a single slide. You can apply animations from the Animations tab. There are four types: Entrance, Emphasis, Exit, and Motion Paths. Use the Animation Pane to control the order and timing of your animations.",
+    "tip": "Less is more. Use animations purposefully to reveal information step-by-step, not just for decoration."
+  },
+  {
+    "title": "8. Working with Slide Master",
+    "explanation": "The Slide Master (found on the View tab) allows you to edit the underlying layouts and theme of your presentation. Changes made in the Slide Master, like adding a logo or changing the heading font, will apply to all slides that use that layout. This is a huge time-saver for making global changes.",
+    "tip": "Edit the top-level 'parent' slide in the Slide Master view to make a change that affects every single slide layout."
+  },
+  {
+    "title": "9. Using Speaker Notes",
+    "explanation": "The notes pane at the bottom of the Normal view is for your speaker notes. You can write down reminders, detailed explanations, or cues for yourself. These notes are visible to you in Presenter View but are hidden from the audience.",
+    "tip": "You can adjust the size of the notes pane by dragging the divider line up or down."
+  },
+  {
+    "title": "10. Presenter View and Delivering Your Slideshow",
+    "explanation": "When you present, if you have a second screen connected, PowerPoint will automatically use Presenter View. This view shows you the current slide, your speaker notes, a preview of the next slide, and a timer. Your audience only sees the main slide. To start your slideshow, press `F5` or go to the Slide Show tab.",
+    "tip": "In Presenter View, you can use tools like the laser pointer, pen, and highlighter to draw attention to parts of your slide."
+  }
+]

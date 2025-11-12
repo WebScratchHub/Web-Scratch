@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. The Figma Interface",
+    "explanation": "Figma is a collaborative interface design tool that runs in your browser. The interface consists of the Layers Panel on the left (showing all your objects), the Canvas in the middle (your workspace), the Properties Panel on the right (for editing selected objects), and the Toolbar at the top (for creating shapes, text, etc.).",
+    "tip": "Press `Ctrl + /` (or `Cmd + /` on Mac) to search for any command in Figma."
+  },
+  {
+    "title": "2. Frames vs. Groups",
+    "explanation": "Frames are the containers for your designs in Figma; think of them as artboards. They can represent a screen (like an iPhone or a desktop) and can have their own properties like layout grids and backgrounds. Groups are simpler; they are just for organizing multiple objects together in the Layers Panel.",
+    "tip": "Always start your screen designs inside a Frame. You can choose a preset device size from the Properties Panel when the Frame tool is active."
+  },
+  {
+    "title": "3. Creating and Styling Shapes",
+    "explanation": "You can create basic shapes like rectangles, lines, arrows, ellipses, and stars using the Shape tools in the toolbar. Once a shape is on the canvas, you can use the Properties Panel on the right to change its fill color, add a stroke (border), apply effects like drop shadows, and adjust its corner radius.",
+    "tip": "Hold the `Shift` key while drawing a shape to constrain its proportions (e.g., to draw a perfect square or circle)."
+  },
+  {
+    "title": "4. Working with Text",
+    "explanation": "Select the Text tool (`T`) from the toolbar to add text to your canvas. The Properties Panel will show all the text styling options, including font family, weight, size, line height, letter spacing, and alignment. It's a best practice to define Text Styles for consistency.",
+    "tip": "Unlike some design tools, in Figma you can just click to create a text box that resizes automatically, or click and drag to create a fixed-size text box."
+  },
+  {
+    "title": "5. Introduction to Auto Layout",
+    "explanation": "Auto Layout is one of Figma's most powerful features. It lets you create frames that grow or shrink automatically as you add or remove content. It's perfect for building buttons that resize with their text, lists that expand, and entire responsive screens. You can add Auto Layout to a frame from the Properties Panel.",
+    "tip": "Use Auto Layout to control the spacing between items and the padding inside a container."
+  },
+  {
+    "title": "6. Understanding Constraints",
+    "explanation": "Constraints control how an object behaves when its parent frame is resized. In the Properties Panel, you can pin an object to the left, right, top, bottom, center, or set it to scale. This is fundamental for creating responsive designs that work on different screen sizes.",
+    "tip": "Select an object inside a frame and look at the 'Constraints' section on the right to see the blue lines indicating how it's pinned."
+  },
+  {
+    "title": "7. Creating Components",
+    "explanation": "Components are reusable UI elements. You can create a component from any object or group of objects (like a button or an icon). When you change the 'Main Component', all 'instances' (copies) of that component will update automatically. This is essential for managing large design systems.",
+    "tip": "To create a component, select an object and press `Ctrl + Alt + K` (or `Cmd + Option + K` on Mac)."
+  },
+  {
+    "title": "8. Basic Prototyping",
+    "explanation": "Figma allows you to create interactive prototypes to simulate how a user would navigate your app. Switch to 'Prototype' mode from the Properties Panel. Then, you can drag 'noodles' from one frame to another to create links. You can define triggers (like 'On Click') and actions (like 'Navigate To').",
+    "tip": "Click the 'Present' button (play icon) in the top-right corner to view your prototype in action."
+  },
+  {
+    "title": "9. Using Smart Animate",
+    "explanation": "Smart Animate is a prototyping feature that automatically animates layers between frames if they have the same name. It looks for matching layers and smoothly transitions their properties (like size, position, and color). This allows you to create complex animations with minimal effort.",
+    "tip": "For Smart Animate to work, make sure the objects you want to animate exist on both the starting and ending frames and have the exact same layer name."
+  },
+  {
+    "title": "10. Collaboration and Sharing",
+    "explanation": "Figma is built for real-time collaboration. You can invite other people to your design file to edit with you simultaneously. You can see their cursors moving around the canvas. Use the 'Share' button to invite teammates or create a link to share a view-only version of your design with stakeholders.",
+    "tip": "Team members can leave comments directly on the design canvas to provide feedback."
+  }
+]

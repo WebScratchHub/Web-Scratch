@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Understanding the Canva Interface",
+    "explanation": "Canva is a user-friendly online design platform. The main interface consists of a side panel on the left where you find Templates, Elements, Text, and more. The central area is your design canvas. At the top, you have the menu bar for file operations and a toolbar that changes based on the element you've selected.",
+    "tip": "Use the search bar at the top of the side panel to quickly find specific templates, elements, or photos."
+  },
+  {
+    "title": "2. Starting with a Template",
+    "explanation": "The easiest way to start a design in Canva is by using a template. On the home page or in the 'Templates' tab of the editor, you can search for thousands of professionally designed templates for anything from Instagram posts to presentations. Simply click on a template to apply it to your canvas.",
+    "tip": "You can customize every part of a template—change the colors, fonts, images, and text to match your brand."
+  },
+  {
+    "title": "3. Working with Text",
+    "explanation": "Click on the 'Text' tab in the side panel to add headings, subheadings, or body text. You can also choose from a variety of pre-designed font combinations. Once text is on your canvas, select it to open the text toolbar at the top, where you can change the font, size, color, spacing, and apply effects.",
+    "tip": "Use the 'Effects' option in the text toolbar to add shadows, outlines, or a curve to your text."
+  },
+  {
+    "title": "4. Using Elements: Shapes, Lines, and Graphics",
+    "explanation": "The 'Elements' tab is the heart of Canva's library. Here you can find lines, shapes, graphics, stickers, photos, videos, and more. Use the search bar to find what you need and simply click or drag it onto your canvas.",
+    "tip": "When you select a graphic, some allow you to change their colors. Look for the color squares that appear in the top toolbar."
+  },
+  {
+    "title": "5. Uploading Your Own Images and Logos",
+    "explanation": "You can personalize your designs by uploading your own assets. Go to the 'Uploads' tab in the side panel and click 'Upload files'. You can upload images, videos, and audio. Once uploaded, they will be stored in your library to reuse in any design.",
+    "tip": "If you have Canva Pro, you can use the 'Background Remover' tool on your uploaded images with a single click."
+  },
+  {
+    "title": "6. Aligning and Positioning Elements",
+    "explanation": "Canva makes alignment easy with smart guides (pink lines) that appear automatically as you drag elements, helping you align them to the center of the page or to other elements. For more precision, select an element and click 'Position' in the top-right toolbar to align it to the top, middle, center, left, right, or bottom.",
+    "tip": "Select multiple elements by holding 'Shift' and clicking on them. Then use the 'Position' > 'Tidy up' tool to space them out evenly."
+  },
+  {
+    "title": "7. Changing Colors and Backgrounds",
+    "explanation": "To change the background color of your design, click on the canvas itself (an area with no elements) and then click the color swatch in the top-left corner. You can also drag a photo from the 'Elements' tab to the edge of the canvas to set it as the background.",
+    "tip": "Canva's 'Styles' tab can apply a consistent color palette and font pairing to your entire design with one click."
+  },
+  {
+    "title": "8. Using Frames and Grids",
+    "explanation": "Frames and Grids (found in the 'Elements' tab) are placeholders that you can drag photos or videos into. They will automatically crop the media to fit the shape of the frame or grid. This is perfect for creating photo collages or profile picture bubbles.",
+    "tip": "Search for 'Frames' in the Elements tab to find various shapes like circles, letters, and device mockups."
+  },
+  {
+    "title": "9. Animating Your Design",
+    "explanation": "You can bring your static designs to life with animation. Click on the canvas to select the entire page, then click 'Animate' in the top toolbar to apply a page animation. You can also select individual elements to apply text or photo animations. This is great for creating simple videos or GIFs.",
+    "tip": "When you download an animated design, be sure to choose the 'MP4 Video' or 'GIF' file type."
+  },
+  {
+    "title": "10. Sharing and Downloading Your Work",
+    "explanation": "When your design is complete, click the 'Share' button in the top-right corner. From here, you can download your file in various formats (PNG, JPG, PDF, etc.), share a link to view or edit the design, or post it directly to social media.",
+    "tip": "When downloading a PNG, you can check the 'Transparent background' option (Pro feature) to create graphics with no background, perfect for logos or overlays."
+  }
+]

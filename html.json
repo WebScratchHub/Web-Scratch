@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to HTML",
+    "explanation": "HTML, which stands for HyperText Markup Language, is the standard markup language for creating web pages and web applications. It provides the fundamental structure of a webpage, allowing you to organize content like headings, paragraphs, images, and links.",
+    "example": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First Web Page</title>\n</head>\n<body>\n  <h1>Hello, World!</h1>\n  <p>This is my first paragraph.</p>\n</body>\n</html>"
+  },
+  {
+    "title": "2. The <!DOCTYPE> Declaration",
+    "explanation": "The `<!DOCTYPE html>` declaration is the very first thing in your HTML document. It's an instruction to the web browser about what version of HTML the page is written in. For HTML5, the declaration is simple and ensures the browser renders the page in 'standards mode'.",
+    "example": "<!DOCTYPE html>\n<html>\n  ...\n</html>"
+  },
+  {
+    "title": "3. The <html> Element",
+    "explanation": "The `<html>` element is the root element of an HTML page. All other elements must be descendants of this element. It's a container that encloses everything on the page.",
+    "example": "<html>\n  <head>...</head>\n  <body>...</body>\n</html>"
+  },
+  {
+    "title": "4. The <head> Element",
+    "explanation": "The `<head>` element is a container for metadata (data about data) and is placed between the `<html>` tag and the `<body>` tag. Metadata is not displayed on the page itself but contains important information like the page title, character set, styles, scripts, and more.",
+    "example": "<head>\n  <meta charset=\"UTF-8\">\n  <title>Page Title</title>\n</head>"
+  },
+  {
+    "title": "5. The <title> Element",
+    "explanation": "The `<title>` element, found inside the `<head>`, defines the title of the document. This title is displayed in the browser's title bar or in the page's tab. It is also used as the default name when a user bookmarks the page.",
+    "example": "<head>\n  <title>My Awesome Website</title>\n</head>"
+  },
+  {
+    "title": "6. The <body> Element",
+    "explanation": "The `<body>` element defines the document's body. It contains all the visible content of a webpage, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. There can only be one `<body>` element in an HTML document.",
+    "example": "<body>\n  <h1>Main Heading</h1>\n  <p>A paragraph of text.</p>\n</body>"
+  },
+  {
+    "title": "7. Heading Elements (<h1> to <h6>)",
+    "explanation": "HTML provides six levels of heading tags, from `<h1>` (the most important) to `<h6>` (the least important). Headings are used to structure your content and are crucial for both readability and Search Engine Optimization (SEO).",
+    "example": "<h1>This is a main heading</h1>\n<h2>This is a sub-heading</h2>\n<h3>This is a smaller sub-heading</h3>"
+  },
+  {
+    "title": "8. The <p> (Paragraph) Element",
+    "explanation": "The `<p>` element defines a paragraph. Browsers automatically add some white space (a margin) before and after each `<p>` element, which helps to visually separate blocks of text.",
+    "example": "<p>This is the first paragraph.</p>\n<p>This is the second paragraph.</p>"
+  },
+  {
+    "title": "9. The <a> (Anchor) Element for Links",
+    "explanation": "The `<a>` element, or anchor tag, is used to create hyperlinks. The `href` attribute is the most important attribute of the `<a>` element, and it indicates the link's destination.",
+    "example": "<a href=\"https://www.google.com\">Visit Google</a>"
+  },
+  {
+    "title": "10. The <img> Element for Images",
+    "explanation": "The `<img>` element is used to embed an image in an HTML page. It is an empty tag, meaning it contains attributes only and does not have a closing tag. The `src` attribute specifies the path to the image, and the `alt` attribute provides alternate text if the image cannot be displayed.",
+    "example": "<img src=\"image.jpg\" alt=\"A descriptive text for the image\">"
+  }
+]

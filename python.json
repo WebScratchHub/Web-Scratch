@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to Python",
+    "explanation": "Python is a high-level, interpreted programming language known for its simple syntax and readability. It's widely used in web development, data science, artificial intelligence, and automation. Its design philosophy emphasizes code readability with its notable use of significant whitespace.",
+    "example": "print(\"Hello, World!\")"
+  },
+  {
+    "title": "2. Variables and Data Types",
+    "explanation": "In Python, a variable is a container for storing data values. Python has various standard data types, including integers (`int`), floating-point numbers (`float`), strings (`str`), and booleans (`bool`). You don't need to explicitly declare the type of a variable; Python infers it from the value assigned.",
+    "example": "name = \"Alice\"\nage = 30\nheight = 5.5\nis_student = True\n\nprint(name)\nprint(age)"
+  },
+  {
+    "title": "3. Basic Operators",
+    "explanation": "Python supports various operators for performing operations on variables and values. These include arithmetic operators (+, -, *, /), assignment operators (=, +=), comparison operators (==, !=, >, <), and logical operators (and, or, not).",
+    "example": "x = 10\ny = 5\n\n# Arithmetic\nprint(x + y)  # 15\n\n# Comparison\nprint(x > y)  # True\n\n# Logical\nprint(x > 0 and y < 10) # True"
+  },
+  {
+    "title": "4. String Manipulation",
+    "explanation": "Strings are sequences of characters and are immutable in Python. You can perform many operations on them, such as concatenation (+), slicing (accessing parts of the string), and using built-in methods like `.upper()`, `.lower()`, and `.replace()`.",
+    "example": "message = \"Hello, Python!\"\n\n# Get length\nprint(len(message))\n\n# Convert to uppercase\nprint(message.upper())\n\n# Slicing\nprint(message[7:13]) # 'Python'"
+  },
+  {
+    "title": "5. User Input",
+    "explanation": "The `input()` function allows you to get input from the user. It reads a line from the input, converts it into a string, and returns it. You might need to convert the input to another data type, like an integer, using `int()`.",
+    "example": "name = input(\"Enter your name: \")\nprint(\"Hello, \" + name + \"!\")\n\nage_str = input(\"Enter your age: \")\nage = int(age_str)\nprint(\"You will be\", age + 1, \"next year.\")"
+  },
+  {
+    "title": "6. Lists: Introduction",
+    "explanation": "A list is an ordered and mutable collection of items. Lists are one of the most versatile data structures in Python. You can store items of different data types in a single list. They are defined by having values between square brackets `[]`.",
+    "example": "fruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits[1]) # banana\n\nfruits.append(\"orange\")\nprint(fruits)"
+  },
+  {
+    "title": "7. Conditional Statements (if, elif, else)",
+    "explanation": "Conditional statements allow your program to execute certain blocks of code only if a specific condition is met. The `if` statement is the most basic, `elif` (else if) allows you to check for multiple conditions, and `else` provides a block of code to run if none of the conditions are true.",
+    "example": "age = 18\n\nif age < 13:\n    print(\"You are a child.\")\nelif age < 20:\n    print(\"You are a teenager.\")\nelse:\n    print(\"You are an adult.\")"
+  },
+  {
+    "title": "8. For Loops",
+    "explanation": "A `for` loop is used for iterating over a sequence (like a list, tuple, dictionary, set, or string). This allows you to execute a block of code for each item in the sequence.",
+    "example": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfor fruit in fruits:\n    print(fruit)\n\n# Using range()\nfor i in range(5):\n    print(i) # Prints 0, 1, 2, 3, 4"
+  },
+  {
+    "title": "9. While Loops",
+    "explanation": "A `while` loop executes a block of code as long as a specified condition is true. It's useful when you don't know in advance how many times you need to loop.",
+    "example": "count = 0\nwhile count < 5:\n    print(count)\n    count += 1 # This is crucial to avoid an infinite loop"
+  },
+  {
+    "title": "10. Functions",
+    "explanation": "A function is a reusable block of code that performs a specific task. You define a function using the `def` keyword. Functions help to make your code more organized, modular, and reusable.",
+    "example": "def greet(name):\n    return \"Hello, \" + name + \"!\"\n\nmessage = greet(\"Alice\")\nprint(message)"
+  }
+]

@@ -1,0 +1,57 @@
+
+[
+  {
+    "title": "1. Understanding the Excel Interface",
+    "explanation": "The Excel interface consists of the Ribbon at the top, which contains tabs like File, Home, Insert, etc. Below the Ribbon is the Formula Bar where you can see and edit cell contents. The main area is the worksheet grid, composed of columns (letters) and rows (numbers). A cell is the intersection of a column and a row (e.g., A1).",
+    "tip": "Use `Ctrl + Arrow Keys` to quickly navigate to the edge of your data range in any direction."
+  },
+  {
+    "title": "2. Entering and Editing Data",
+    "explanation": "To enter data, simply click on a cell and start typing. To edit the contents of a cell, you can either double-click it or click once and then edit the content in the Formula Bar. Press `Enter` to confirm your entry and move to the cell below, or `Tab` to move to the cell to the right.",
+    "tip": "Press `F2` to edit the active cell without having to double-click."
+  },
+  {
+    "title": "3. The SUM Function",
+    "explanation": "The `SUM` function is one of the most basic and widely used formulas. It adds all the numbers in a range of cells. You can type it manually or use the AutoSum button (Σ) on the Home tab for a quick sum of adjacent cells.",
+    "example": "=SUM(A1:A10)",
+    "tip": "Select the cell right below a column of numbers and press `Alt + =` to automatically insert the SUM formula."
+  },
+  {
+    "title": "4. The AVERAGE Function",
+    "explanation": "The `AVERAGE` function calculates the average (arithmetic mean) of a range of numbers. It sums the numbers and then divides by the count of those numbers.",
+    "example": "=AVERAGE(B2:B20)",
+    "tip": "The status bar at the bottom of Excel can show the Average, Count, and Sum of selected cells without needing a formula."
+  },
+  {
+    "title": "5. The COUNT Function",
+    "explanation": "The `COUNT` function counts the number of cells in a range that contain numbers. It ignores empty cells, text, and error values. This is useful for quickly seeing how many numeric entries you have.",
+    "example": "=COUNT(C1:C100)",
+    "tip": "Use `COUNTA` to count the number of cells that are not empty (including text and numbers)."
+  },
+  {
+    "title": "6. Basic Formatting: Bold, Italic, Underline",
+    "explanation": "You can change the appearance of your text to make it stand out. The most common formatting options are Bold, Italic, and Underline, which can be found in the Font group on the Home tab.",
+    "tip": "Use keyboard shortcuts: `Ctrl + B` for Bold, `Ctrl + I` for Italic, and `Ctrl + U` for Underline."
+  },
+  {
+    "title": "7. Changing Font and Font Size",
+    "explanation": "To improve readability or match a specific style, you can change the font (e.g., from Calibri to Arial) and the font size of your cell data. These options are available in the Font group on the Home tab.",
+    "tip": "Use the 'Increase Font Size' (A▲) and 'Decrease Font Size' (A▼) buttons for quick adjustments."
+  },
+  {
+    "title": "8. Fill Color and Font Color",
+    "explanation": "Highlighting cells with a fill color can help draw attention to important data. You can also change the font color to create contrast. Both options are located in the Font group on the Home tab.",
+    "tip": "Create a simple color key in your spreadsheet to explain what different fill colors represent."
+  },
+  {
+    "title": "9. Using the Fill Handle",
+    "explanation": "The Fill Handle is the small square at the bottom-right corner of a selected cell. You can click and drag it to copy a formula or data to adjacent cells. It can also be used to automatically continue a series, like days of the week or numbers.",
+    "tip": "Double-clicking the Fill Handle will automatically copy the formula down to the last cell in the adjacent column with data."
+  },
+  {
+    "title": "10. Absolute vs. Relative References",
+    "explanation": "When you copy a formula, cell references change by default (Relative Reference, e.g., A1). An Absolute Reference (e.g., $A$1) does not change when the formula is copied. This is crucial when you want a formula to always refer to a specific cell, like a tax rate. Press `F4` to cycle through reference types.",
+    "example": "Relative: =A1*B1\nAbsolute: =A1*$B$1",
+    "tip": "A mixed reference like `A$1` locks the row but allows the column to change, which is useful in tables."
+  }
+]

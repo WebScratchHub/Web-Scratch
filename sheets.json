@@ -1,0 +1,57 @@
+
+[
+  {
+    "title": "1. The Google Sheets Interface",
+    "explanation": "Google Sheets is a cloud-based spreadsheet application. The interface features a menu bar (File, Edit, View), a toolbar with common commands, a formula bar for editing cell content, and the main grid of cells (columns A, B, C... and rows 1, 2, 3...). Being cloud-based, all changes are saved automatically.",
+    "tip": "You can work on Google Sheets offline by enabling offline access in your Google Drive settings."
+  },
+  {
+    "title": "2. Entering Formulas",
+    "explanation": "Formulas are the core of any spreadsheet. In Google Sheets, every formula must begin with an equals sign (`=`). You can perform basic arithmetic like addition (+), subtraction (-), multiplication (*), and division (/). You can use cell references (e.g., A1) in your formulas.",
+    "example": "=A1 + B1",
+    "tip": "After typing `=`, you can click on cells to insert their references into your formula instead of typing them manually."
+  },
+  {
+    "title": "3. The SUM Function",
+    "explanation": "The `SUM` function adds up all the numbers in a specified range of cells. It's one of the most frequently used functions. You can specify a range using a colon, like `A1:A10`, which includes all cells from A1 to A10.",
+    "example": "=SUM(B2:B15)",
+    "tip": "You can also sum individual cells by separating them with a comma, like `=SUM(A1, B5, C3)`."
+  },
+  {
+    "title": "4. The AVERAGE Function",
+    "explanation": "The `AVERAGE` function calculates the arithmetic mean of a range of numbers. It adds the numbers together and divides by the count of the numbers.",
+    "example": "=AVERAGE(C1:C50)",
+    "tip": "When you select a range of cells with numbers, Sheets will automatically show you the SUM, AVERAGE, and COUNT in the bottom-right corner."
+  },
+  {
+    "title": "5. Sorting and Filtering Data",
+    "explanation": "Sorting allows you to arrange your data in a specific order (e.g., A-Z or Smallest to Largest). Filtering allows you to hide rows that don't meet your criteria, helping you focus on specific data. Both options can be found under the 'Data' menu.",
+    "tip": "To sort a multi-column range, select the entire range first, then go to Data > Sort range to ensure rows stay together."
+  },
+  {
+    "title": "6. Creating Basic Charts",
+    "explanation": "Charts are a great way to visualize your data. Select the data you want to chart, then go to Insert > Chart. Google Sheets will suggest a chart type, but you can customize it extensively using the Chart editor that appears on the right.",
+    "tip": "For quick, simple charts, use the 'Explore' button in the bottom-right corner. It uses AI to suggest charts and insights about your data."
+  },
+  {
+    "title": "7. Sharing and Collaboration",
+    "explanation": "One of the biggest strengths of Google Sheets is real-time collaboration. Click the 'Share' button in the top-right corner to invite others to view, comment on, or edit your spreadsheet. You can see their changes live as they happen.",
+    "tip": "You can set different permission levels (Viewer, Commenter, Editor) for each person or group you share the sheet with."
+  },
+  {
+    "title": "8. Conditional Formatting",
+    "explanation": "Conditional formatting automatically changes a cell's appearance (like its background color or text style) based on rules you define. For example, you can make all negative numbers appear in red text. Access this feature from the Format > Conditional formatting menu.",
+    "tip": "Use a 'Color scale' conditional format to create a heat map, which is great for visualizing high and low values in a large dataset."
+  },
+  {
+    "title": "9. Introduction to VLOOKUP",
+    "explanation": "The `VLOOKUP` (Vertical Lookup) function is an incredibly powerful tool for searching for a value in the first column of a table and returning a corresponding value from another column in the same row. It's essential for combining data from different tables.",
+    "example": "=VLOOKUP(search_key, range, index, [is_sorted])",
+    "tip": "Most of the time, you will want to set the `is_sorted` argument to `FALSE` to find an exact match."
+  },
+  {
+    "title": "10. Using Data Validation",
+    "explanation": "Data validation allows you to control what data can be entered into a cell. You can use it to create dropdown lists, restrict entries to numbers within a certain range, or ensure that a cell contains a valid date. Find it under Data > Data validation.",
+    "tip": "Creating a dropdown list from a range of cells is a common use case. This ensures consistent data entry and prevents spelling mistakes."
+  }
+]

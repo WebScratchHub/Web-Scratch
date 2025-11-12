@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to Java",
+    "explanation": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose language intended to let application developers 'write once, run anywhere' (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.",
+    "example": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+  },
+  {
+    "title": "2. JVM, JRE, and JDK",
+    "explanation": "These are three core components of Java. The JDK (Java Development Kit) is a software development kit to develop applications. The JRE (Java Runtime Environment) provides the libraries, the Java Virtual Machine (JVM), and other components to run applications. The JVM (Java Virtual Machine) is an abstract machine that enables a computer to run a Java program.",
+    "tip": "To develop Java applications, you need the JDK. To only run them, you only need the JRE."
+  },
+  {
+    "title": "3. Variables and Primitive Data Types",
+    "explanation": "In Java, you must declare a variable's type before using it. Java has eight primitive data types: `byte`, `short`, `int`, `long` for integers; `float`, `double` for floating-point numbers; `boolean` for true/false; and `char` for single characters.",
+    "example": "public class Variables {\n    public static void main(String[] args) {\n        int age = 30;\n        double salary = 65000.50;\n        boolean isEmployed = true;\n        char initial = 'J';\n        System.out.println(\"Age: \" + age);\n    }\n}"
+  },
+  {
+    "title": "4. The String Class",
+    "explanation": "In Java, strings are objects of the `String` class, not a primitive type. `String` objects are immutable, meaning once a string is created, it cannot be changed. The class provides many useful methods for manipulating strings.",
+    "example": "public class StringExample {\n    public static void main(String[] args) {\n        String greeting = \"Hello, Java!\";\n        System.out.println(\"Length: \" + greeting.length());\n        System.out.println(\"Uppercase: \" + greeting.toUpperCase());\n    }\n}"
+  },
+  {
+    "title": "5. Conditional Statements (if-else)",
+    "explanation": "Conditional statements are used to control the flow of execution based on a condition. The `if` statement executes code if a condition is true, and the `else` statement provides an alternative path if the condition is false.",
+    "example": "public class Conditionals {\n    public static void main(String[] args) {\n        int score = 75;\n        if (score >= 60) {\n            System.out.println(\"You passed!\");\n        } else {\n            System.out.println(\"You failed.\");\n        }\n    }\n}"
+  },
+  {
+    "title": "6. For Loops",
+    "explanation": "A `for` loop is used to execute a block of code a specific number of times. It's ideal for iterating over arrays or simply repeating an action a known number of times.",
+    "example": "public class ForLoop {\n    public static void main(String[] args) {\n        for (int i = 0; i < 5; i++) {\n            System.out.println(\"Iteration: \" + i);\n        }\n    }\n}"
+  },
+  {
+    "title": "7. Methods",
+    "explanation": "A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Methods are used to perform certain actions, and they are also known as functions. Every Java program must have at least one method: `main`.",
+    "example": "public class Methods {\n    static int add(int x, int y) {\n        return x + y;\n    }\n\n    public static void main(String[] args) {\n        int result = add(10, 20);\n        System.out.println(\"The sum is: \" + result);\n    }\n}"
+  },
+  {
+    "title": "8. Classes and Objects",
+    "explanation": "Java is an object-oriented language. A class is a blueprint from which individual objects are created. An object is an instance of a class. A class contains fields (variables) and methods to describe the behavior of an object.",
+    "example": "class Dog {\n    String name;\n    void bark() {\n        System.out.println(name + \" says woof!\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Dog myDog = new Dog();\n        myDog.name = \"Fido\";\n        myDog.bark(); // Outputs: Fido says woof!\n    }\n}"
+  },
+  {
+    "title": "9. Constructors",
+    "explanation": "A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes.",
+    "example": "class Car {\n    String model;\n    \n    // Constructor\n    public Car(String modelName) {\n        model = modelName;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Car myCar = new Car(\"Mustang\");\n        System.out.println(myCar.model);\n    }\n}"
+  },
+  {
+    "title": "10. Arrays",
+    "explanation": "An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.",
+    "example": "public class ArrayExample {\n    public static void main(String[] args) {\n        String[] cars = {\"Volvo\", \"BMW\", \"Ford\"};\n        System.out.println(cars[1]); // Outputs: BMW\n\n        for (String car : cars) {\n            System.out.println(car);\n        }\n    }\n}"
+  }
+]

@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. What is Notion? Pages and Blocks",
+    "explanation": "Notion is an all-in-one workspace for notes, tasks, wikis, and databases. The two most fundamental concepts are Pages and Blocks. A Page is like a document or a new canvas. Everything you add to a Page is a Block. A block can be a piece of text, an image, a checklist item, a heading, or even another page.",
+    "tip": "Type `/` anywhere on a page to open the block menu and see all the different types of content you can add."
+  },
+  {
+    "title": "2. Basic Text Formatting with Markdown",
+    "explanation": "Notion supports Markdown for quick text formatting. You can make text bold by wrapping it in `**asterisks**`, italic with `*single asterisks*`, and create headings by starting a line with `#` followed by a space (e.g., `# Heading 1`). This is often faster than using the pop-up menu.",
+    "tip": "Type `---` on a new line to instantly create a divider line."
+  },
+  {
+    "title": "3. Creating and Using Toggles",
+    "explanation": "Toggle lists are a great way to organize information and reduce clutter on your page. Type `>` followed by a space to create a toggle. You can place any type of block, including other pages, inside a toggle to hide it until it's needed.",
+    "tip": "Use toggles to create FAQ sections or to hide detailed notes under a main heading."
+  },
+  {
+    "title": "4. Introduction to Databases",
+    "explanation": "Databases are the most powerful feature in Notion. A database is a collection of pages, where each page is an item with specific properties. Think of it like a spreadsheet but where every row is its own Notion page. You can create a database with the `/database` command.",
+    "tip": "You can create a database 'inline' (as part of a page) or as a 'full page'."
+  },
+  {
+    "title": "5. Understanding Database Properties",
+    "explanation": "Properties are the pieces of information you want to track for each item in your database. They are like the columns in a spreadsheet. Notion has many property types, including Text, Number, Date, Select (for tags), Person (for assigning tasks), and Files & Media.",
+    "tip": "The 'Select' and 'Multi-select' properties are perfect for categorizing your database items with tags."
+  },
+  {
+    "title": "6. Using Different Database Views",
+    "explanation": "A single Notion database can be viewed in multiple ways. The most common views are Table (spreadsheet), Board (Kanban-style), Calendar, List, and Gallery. You can create and save multiple views for the same database, each with its own filters and sorting.",
+    "tip": "A 'Board' view, grouped by a 'Status' property, is perfect for creating a task manager or project tracker."
+  },
+  {
+    "title": "7. Filtering and Sorting Database Views",
+    "explanation": "You can filter a database view to only show items that meet specific criteria (e.g., 'show only tasks assigned to me'). You can also sort the view based on a property (e.g., 'sort by due date, ascending'). Filters and sorts are unique to each view you create.",
+    "tip": "Combine multiple filters with 'AND' / 'OR' logic to create highly specific views of your data."
+  },
+  {
+    "title": "8. Linking Pages and Creating Backlinks",
+    "explanation": "You can create a personal wiki by linking pages together. Use the `@` symbol followed by a page name to create a link to another page in your workspace. When you do this, Notion automatically creates a 'backlink' on the linked page, showing you where it has been mentioned.",
+    "tip": "Use the `/link to page` command to create a link without needing to type `@`."
+  },
+  {
+    "title": "9. Using Templates",
+    "explanation": "Notion has a huge library of pre-built templates for everything from project management to journaling. You can access them from the 'Templates' button in your sidebar. You can also create your own 'Template Button' to quickly replicate a set of blocks or a page structure.",
+    "tip": "Database templates allow you to pre-define the structure and content of new pages created within that database."
+  },
+  {
+    "title": "10. Sharing and Collaboration",
+    "explanation": "You can share any Notion page with others. Click the 'Share' button in the top right. You can invite specific people via email to collaborate, or you can 'Publish to web' to create a public, read-only version of your page that anyone with the link can view.",
+    "tip": "When publishing a page to the web, you can choose to allow comments or allow others to duplicate it as a template."
+  }
+]

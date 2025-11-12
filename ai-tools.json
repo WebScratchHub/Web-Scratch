@@ -1,0 +1,1569 @@
+
+[
+  {
+    "name": "ChatGPT",
+    "description": "Conversational AI by OpenAI for text, code, and creative writing.",
+    "url": "https://chat.openai.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Midjourney",
+    "description": "An independent research lab that produces a proprietary artificial intelligence program that creates images from textual descriptions.",
+    "url": "https://www.midjourney.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Leonardo AI",
+    "description": "AI image generation tool for artists and designers, focusing on game assets and concept art.",
+    "url": "https://leonardo.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Replit",
+    "description": "Collaborative coding and AI-powered development platform in the browser.",
+    "url": "https://replit.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Runway",
+    "description": "AI-powered video editing and generation tools for creators.",
+    "url": "https://runwayml.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Synthesia",
+    "description": "AI video generation platform that creates professional videos with AI avatars and voices.",
+    "url": "https://www.synthesia.io/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Jasper",
+    "description": "AI copywriter and content generator for marketing, social media, and blogs.",
+    "url": "https://www.jasper.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer that suggests code and entire functions right inside your editor.",
+    "url": "https://github.com/features/copilot",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Notion AI",
+    "description": "AI features integrated into Notion for summarizing, writing, and brainstorming.",
+    "url": "https://www.notion.so/product/ai",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Suno AI",
+    "description": "Generate original songs with lyrics and instrumentals from a simple text prompt.",
+    "url": "https://suno.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "Prime AI voice generator for text to speech, voice cloning, and synthetic speech.",
+    "url": "https://elevenlabs.io/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Perplexity AI",
+    "description": "An AI-powered search engine that provides direct answers to questions with cited sources.",
+    "url": "https://www.perplexity.ai/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Kittl",
+    "description": "Advanced text and design creation platform with AI-powered features for designers.",
+    "url": "https://www.kittl.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Fireflies.ai",
+    "description": "AI meeting assistant that transcribes, summarizes, and analyzes voice conversations.",
+    "url": "https://fireflies.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Pika",
+    "description": "An idea-to-video platform that brings your creativity to motion with AI.",
+    "url": "https://pika.art/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "HeyGen",
+    "description": "AI video platform for creating engaging business videos with generative avatars and voices.",
+    "url": "https://www.heygen.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Copy.ai",
+    "description": "AI-powered copywriter that generates high-quality marketing copy and content.",
+    "url": "https://www.copy.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Claude",
+    "description": "A family of foundational AI models from Anthropic that can be used in a variety of applications.",
+    "url": "https://claude.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "A deep learning, text-to-image model released by Stability AI.",
+    "url": "https://stablediffusionweb.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Codeium",
+    "description": "The modern coding superpower, a free code acceleration toolkit built on cutting edge AI technology.",
+    "url": "https://codeium.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Tome",
+    "description": "The AI-powered storytelling format for presentations, documents, and websites.",
+    "url": "https://tome.app/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Descript",
+    "description": "All-in-one audio and video editor that makes editing as easy as a word doc.",
+    "url": "https://www.descript.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Consensus",
+    "description": "An AI search engine for research that helps find insights in research papers.",
+    "url": "https://consensus.app/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Canva",
+    "description": "Online design and publishing tool with a suite of AI-powered features.",
+    "url": "https://www.canva.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Tabnine",
+    "description": "AI assistant for software developers that autocompletes code and tests.",
+    "url": "https://www.tabnine.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Murf.ai",
+    "description": "Versatile AI voice generator for creating studio-quality voice overs.",
+    "url": "https://murf.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Otter.ai",
+    "description": "AI-powered transcription service for meetings, interviews, and lectures.",
+    "url": "https://otter.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Luma AI",
+    "description": "Create incredible lifelike 3D with AI from your phone.",
+    "url": "https://lumalabs.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Adobe Firefly",
+    "description": "Adobe's family of creative generative AI models for image and text effects.",
+    "url": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+    "category": "Image & Design"
+  },
+  {
+    "name": "InVideo",
+    "description": "Online video editor with AI-powered features for quick video creation.",
+    "url": "https://invideo.io/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Grammarly",
+    "description": "AI-powered writing assistant to help with grammar, spelling, and style.",
+    "url": "https://www.grammarly.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Amazon CodeWhisperer",
+    "description": "AI coding companion from AWS that generates code suggestions.",
+    "url": "https://aws.amazon.com/codewhisperer/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "DeepL",
+    "description": "AI-powered translation service known for its accuracy and nuance.",
+    "url": "https://www.deepl.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Glean",
+    "description": "AI-powered work assistant that searches across all your company's apps.",
+    "url": "https://www.glean.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Udio",
+    "description": "Create amazing music in your style with AI.",
+    "url": "https://www.udio.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Elicit",
+    "description": "AI research assistant to automate research workflows like literature review.",
+    "url": "https://elicit.org/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Figma",
+    "description": "The collaborative interface design tool, now with AI features.",
+    "url": "https://www.figma.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Cursor",
+    "description": "The AI-first code editor for building software faster.",
+    "url": "https://cursor.sh/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Scribe",
+    "description": "Turn any process into a step-by-step guide, instantly.",
+    "url": "https://scribehow.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Veed.io",
+    "description": "Online video suite for professionals. Record, edit, and stream videos online.",
+    "url": "https://www.veed.io/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Poe by Quora",
+    "description": "Fast, helpful AI chat with access to multiple models like GPT-4, Claude, and more.",
+    "url": "https://poe.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "DALL-E 3",
+    "description": "An AI system by OpenAI that can create realistic images and art from a description in natural language.",
+    "url": "https://openai.com/dall-e-3",
+    "category": "Image & Design"
+  },
+  {
+    "name": "v0 by Vercel",
+    "description": "Generate UI from text prompts with this generative user interface system.",
+    "url": "https://v0.dev/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "ClickUp",
+    "description": "One app to replace them all. The next generation of work with AI assistance.",
+    "url": "https://clickup.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "LALAL.AI",
+    "description": "High-quality stem splitting to extract vocals, accompaniment, and various instruments from any audio.",
+    "url": "https://www.lalal.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Kaiber",
+    "description": "AI video generation engine to turn your ideas into visuals.",
+    "url": "https://kaiber.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Writesonic",
+    "description": "AI writer, copywriter, and marketing text generator.",
+    "url": "https://writesonic.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Ideogram",
+    "description": "A free-to-use AI image generator focused on creativity and typography.",
+    "url": "https://ideogram.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Gamma",
+    "description": "A new medium for presenting ideas, powered by AI. Create beautiful presentations and docs.",
+    "url": "https://gamma.app/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Splash",
+    "description": "AI music generation for creating unique, royalty-free music.",
+    "url": "https://www.splashmusic.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "WolframAlpha",
+    "description": "A computational knowledge engine that answers factual queries by computing the answer from structured data.",
+    "url": "https://www.wolframalpha.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Looka",
+    "description": "AI-powered platform to design a logo and build a brand you love.",
+    "url": "https://looka.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Hugging Face",
+    "description": "The AI community building the future. Home to thousands of models, datasets, and spaces.",
+    "url": "https://huggingface.co/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Taskade",
+    "description": "AI-powered productivity platform for teams to chat, organize, and get work done.",
+    "url": "https://www.taskade.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Fliki",
+    "description": "Turn text into videos with AI voices. Create videos from scripts or blog posts in minutes.",
+    "url": "https://fliki.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "You.com",
+    "description": "The AI search engine you control — summarizing the web to answer your questions.",
+    "url": "https://you.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Civitai",
+    "description": "A hub for open-source generative AI, primarily focused on Stable Diffusion models and resources.",
+    "url": "https://civitai.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Anima",
+    "description": "Create a high-fidelity, interactive prototype from your design tool (Figma, Adobe XD, Sketch).",
+    "url": "https://www.animaapp.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Superhuman",
+    "description": "The fastest email experience ever made, now with AI features.",
+    "url": "https://superhuman.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Resemble.ai",
+    "description": "Complete generative voice AI toolkit to clone voices, create speech, and more.",
+    "url": "https://www.resemble.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "TensorFlow",
+    "description": "An end-to-end open source platform for machine learning.",
+    "url": "https://www.tensorflow.org/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Artbreeder",
+    "description": "Create and explore images with an AI that remixes and combines existing visuals.",
+    "url": "https://www.artbreeder.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Google Colab",
+    "description": "Write and execute Python in your browser, with free access to GPUs for machine learning.",
+    "url": "https://colab.research.google.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Motion",
+    "description": "AI-powered calendar and project management tool to help you schedule your day.",
+    "url": "https://www.usemotion.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Opus Clip",
+    "description": "A generative AI video tool that repurposes long videos into shorts in one click.",
+    "url": "https://www.opus.pro/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Rytr",
+    "description": "An AI writing assistant that helps you create high-quality content, in just a few seconds.",
+    "url": "https://rytr.me/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Playground AI",
+    "description": "A free-to-use online AI image creator. Use it to create art, social media posts, and more.",
+    "url": "https://playgroundai.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Mintlify",
+    "description": "AI-powered documentation writer that creates beautiful, interactive docs from your code.",
+    "url": "https://mintlify.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Beautiful.ai",
+    "description": "The first presentation maker that designs for you.",
+    "url": "https://www.beautiful.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "AIVA",
+    "description": "The Artificial Intelligence composing emotional soundtrack music.",
+    "url": "https://www.aiva.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Kaggle",
+    "description": "An online community of data scientists and machine learning practitioners.",
+    "url": "https://www.kaggle.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Clipdrop",
+    "description": "The ultimate ecosystem of apps, plugins & resources for all creators, powered by AI.",
+    "url": "https://clipdrop.co/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Retool",
+    "description": "The fast way to build internal tools. Visually design apps that connect to any database or API.",
+    "url": "https://retool.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Mem",
+    "description": "The self-organizing workspace powered by AI that's personalized to you.",
+    "url": "https://mem.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Pictory",
+    "description": "AI video generator that automatically creates short, highly-shareable branded videos from your long-form content.",
+    "url": "https://pictory.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Character.ai",
+    "description": "Create and talk to AI characters. Experience the power of conversational AI.",
+    "url": "https://character.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "AutoDraw",
+    "description": "Fast drawing for everyone. A Google experiment that pairs machine learning with drawings from talented artists.",
+    "url": "https://www.autodraw.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Webflow",
+    "description": "Build professional, custom websites in a completely visual canvas with no code.",
+    "url": "https://webflow.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Zapier",
+    "description": "Automation for busy people. Zapier moves info between your web apps automatically.",
+    "url": "https://zapier.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Adobe Podcast",
+    "description": "AI-powered audio recording and editing, all on the web.",
+    "url": "https://podcast.adobe.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Scikit-learn",
+    "description": "Simple and efficient tools for predictive data analysis, accessible to everybody, and reusable in various contexts.",
+    "url": "https://scikit-learn.org/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Recraft",
+    "description": "Generate and edit vector art, icons, 3D images, and illustrations with AI.",
+    "url": "https://www.recraft.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Bubble",
+    "description": "The best way to build web apps without code.",
+    "url": "https://bubble.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Coda",
+    "description": "The all-in-one doc that brings words, data, and teams together.",
+    "url": "https://coda.io/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Lumen5",
+    "description": "An online video maker that makes it easy to create social videos in minutes.",
+    "url": "https://lumen5.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "CoWriter",
+    "description": "Your AI partner for better, faster writing.",
+    "url": "https://cowriter.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "RunDiffusion",
+    "description": "Private, fast Stable Diffusion workspaces in the cloud. No setup, no hassle.",
+    "url": "https://rundiffusion.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Sourcegraph",
+    "description": "Understand and search across all of your code with this universal code search tool.",
+    "url": "https://sourcegraph.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Airtable",
+    "description": "Connect everything. Achieve anything. Build powerful apps on a single connected platform.",
+    "url": "https://www.airtable.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Soundraw",
+    "description": "The AI music generator that gives you the freedom to create music like never before.",
+    "url": "https://soundraw.io/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "NVIDIA Canvas",
+    "description": "Use AI to turn simple brushstrokes into realistic landscape images.",
+    "url": "https://www.nvidia.com/en-us/studio/canvas/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Hix.ai",
+    "description": "The Most Powerful, All-in-One AI Writing Copilot.",
+    "url": "https://hix.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "FlexClip",
+    "description": "An easy-to-use and versatile video maker that helps you create stunning videos for any purpose.",
+    "url": "https://www.flexclip.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Tango",
+    "description": "Automated process documentation tool. Instantly create how-to guides with screenshots.",
+    "url": "https://www.tango.us/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "DeepMind",
+    "description": "A Google company and world leader in artificial intelligence research and its application for positive impact.",
+    "url": "https://deepmind.google/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Voicera",
+    "description": "AI-powered voice synthesis for creating realistic and expressive voiceovers.",
+    "url": "https://voicera.co/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "AdCreative.ai",
+    "description": "Generate conversion-focused ad creatives and social media post creatives in a matter of seconds.",
+    "url": "https://www.adcreative.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Keras",
+    "description": "An open-source software library that provides a Python interface for artificial neural networks.",
+    "url": "https://keras.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Wisdolia",
+    "description": "Generate smart flashcards from any PDF, webpage, or YouTube video to learn faster.",
+    "url": "https://www.wisdolia.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Miro",
+    "description": "The online collaborative whiteboard platform, now with AI to structure and generate ideas.",
+    "url": "https://miro.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Papercup",
+    "description": "AI-powered video dubbing service to translate content into multiple languages.",
+    "url": "https://www.papercup.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Sudowrite",
+    "description": "The best AI for creative writers, from brainstorming to final draft.",
+    "url": "https://www.sudowrite.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Hotpot.ai",
+    "description": "AI tools to spark creativity. Graphic design, image editing, and content creation.",
+    "url": "https://hotpot.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Adalo",
+    "description": "Turn your app idea into reality without writing any code.",
+    "url": "https://www.adalo.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Decktopus",
+    "description": "AI presentation maker that creates stunning decks in minutes.",
+    "url": "https://www.decktopus.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Boomy",
+    "description": "Make original songs in seconds, even if you've never made music before.",
+    "url": "https://boomy.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Feedly",
+    "description": "Track insights across the web without the noise, powered by AI.",
+    "url": "https://feedly.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Khroma",
+    "description": "The AI color tool for designers that helps you discover, search, and save color combos.",
+    "url": "http://khroma.co/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Wix ADI",
+    "description": "Wix Artificial Design Intelligence builds a stunning website for you in minutes.",
+    "url": "https://www.wix.com/adi",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Todoist",
+    "description": "The #1 task manager and to-do list app, with smart scheduling features.",
+    "url": "https://todoist.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Unscreen",
+    "description": "Remove video backgrounds 100% automatically and for free.",
+    "url": "https://www.unscreen.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "QuillBot",
+    "description": "AI-powered paraphrasing tool that will enhance your writing.",
+    "url": "https://quillbot.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "NightCafe Creator",
+    "description": "AI Art Generator. Create amazing artworks in seconds.",
+    "url": "https://creator.nightcafe.studio/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Amazon Bedrock",
+    "description": "Build and scale generative AI applications with leading foundation models.",
+    "url": "https://aws.amazon.com/bedrock/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Rows",
+    "description": "The spreadsheet with superpowers. Connect to APIs and automate your work.",
+    "url": "https://rows.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Orb Producer Suite",
+    "description": "AI-powered music composition plugins for your DAW.",
+    "url": "https://www.orb-producer.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Zotero",
+    "description": "Your personal research assistant. Collect, organize, cite, and share research.",
+    "url": "https://www.zotero.org/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Uizard",
+    "description": "AI-powered design tool for creating wireframes, mockups, and prototypes in minutes.",
+    "url": "https://uizard.io/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Glide",
+    "description": "Create powerful custom apps and internal tools from your data in minutes.",
+    "url": "https://www.glideapps.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Microsoft Designer",
+    "description": "Stunning designs in a flash. Create social media posts, invitations, and more with AI.",
+    "url": "https://designer.microsoft.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "D-ID",
+    "description": "Create and interact with talking avatars at the touch of a button.",
+    "url": "https://www.d-id.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Hypotenuse AI",
+    "description": "AI content generator for e-commerce, writing product descriptions and marketing copy.",
+    "url": "https://www.hypotenuse.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Framer",
+    "description": "Design and build professional websites, now with AI to generate and improve your site.",
+    "url": "https://www.framer.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Monday.com",
+    "description": "A work OS where teams create and shape workflows to plan, run, and track their processes.",
+    "url": "https://monday.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Play.ht",
+    "description": "AI-powered text to voice generator with realistic human-like voices.",
+    "url": "https://play.ht/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Google AI Platform",
+    "description": "A suite of tools from Google Cloud for building, deploying, and managing ML models.",
+    "url": "https://cloud.google.com/ai-platform",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Remini",
+    "description": "AI-powered photo and video enhancer to restore and improve media quality.",
+    "url": "https://remini.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "What-The-Diff",
+    "description": "AI-powered code review assistant that explains pull requests in plain English.",
+    "url": "https://what-the-diff.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Reclaim.ai",
+    "description": "Smart calendar for Google Calendar that finds the best time for your tasks, habits, and meetings.",
+    "url": "https://reclaim.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Topaz Video AI",
+    "description": "Video enhancement software for upscaling, denoising, and slow-motion effects.",
+    "url": "https://www.topazlabs.com/topaz-video-ai",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "DeepAI",
+    "description": "A collection of AI tools including a text-to-image generator and AI chatbot.",
+    "url": "https://deepai.org/",
+    "category": "Other"
+  },
+  {
+    "name": "Galileo AI",
+    "description": "Create delightful, editable UI designs from a simple text description.",
+    "url": "https://www.usegalileo.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Vercel",
+    "description": "The platform for frontend developers, now with AI features to accelerate development.",
+    "url": "https://vercel.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Wrike",
+    "description": "The most versatile work management platform for enterprises, with AI-powered features.",
+    "url": "https://www.wrike.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Brain.fm",
+    "description": "Music designed for the brain to improve focus, meditation, and sleep.",
+    "url": "https://www.brain.fm/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "OpenAI API",
+    "description": "Access GPT-4, DALL-E, and more of OpenAI's powerful models to build applications.",
+    "url": "https://openai.com/api/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Let's Enhance",
+    "description": "AI image upscaler and enhancer. Increase resolution without losing quality.",
+    "url": "https://letsenhance.io/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Mutable.ai",
+    "description": "AI Accelerated Software Development. Write code, tests, and documentation faster.",
+    "url": "https://mutable.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Trello",
+    "description": "A collaboration tool that organizes your projects into boards, now with AI.",
+    "url": "https://trello.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Synthesizer V",
+    "description": "A powerful singing synthesis software with realistic and expressive vocal capabilities.",
+    "url": "https://dreamtonics.com/synthesizerv/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "PyTorch",
+    "description": "An open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+    "url": "https://pytorch.org/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Stockimg.ai",
+    "description": "Generate logos, book covers, posters, and more with AI.",
+    "url": "https://stockimg.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Webiny",
+    "description": "Open-source enterprise serverless CMS. Self-host or use the managed cloud.",
+    "url": "https://www.webiny.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Asana",
+    "description": "Work management platform that helps teams orchestrate their work, from daily tasks to strategic initiatives.",
+    "url": "https://asana.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Colossyan",
+    "description": "AI video creator with real actors. Create training videos in minutes.",
+    "url": "https://www.colossyan.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "ShortlyAI",
+    "description": "Your AI writing partner to help you get your thoughts on paper.",
+    "url": "https://www.shortlyai.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "DeepArt.io",
+    "description": "Turn any photo into a masterpiece using styles of famous artists.",
+    "url": "https://deepart.io/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Netlify",
+    "description": "The fastest way to build the best sites. A platform for modern web projects.",
+    "url": "https://www.netlify.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Krisp",
+    "description": "AI-powered noise canceling app that mutes background noise in real time.",
+    "url": "https://krisp.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Amper Music",
+    "description": "AI music composer, performer, and producer that lets you instantly create and customize original music.",
+    "url": "https://www.ampermusic.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "RapidAPI",
+    "description": "The world's largest API Hub for finding, testing, and connecting to thousands of APIs.",
+    "url": "https://rapidapi.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Profile Picture AI",
+    "description": "Create the perfect profile picture with AI. Generate avatars that look exactly like you.",
+    "url": "https://www.profilepicture.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Supabase",
+    "description": "The open source Firebase alternative. Build in a weekend, scale to millions.",
+    "url": "https://supabase.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Clockwise",
+    "description": "The smart calendar assistant that frees up your time so you can focus on what matters.",
+    "url": "https://www.getclockwise.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Steve.ai",
+    "description": "AI video maker for creating animated and live-action videos for social media.",
+    "url": "https://www.steve.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Wordtune",
+    "description": "Your personal writing assistant. Rephrase, shorten, and expand your sentences.",
+    "url": "https://www.wordtune.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "PicSo",
+    "description": "AI Art Generator that turns your words into digital art.",
+    "url": "https://picso.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "AppGyver",
+    "description": "Build apps for all form factors, including mobile, desktop, browser, and TV.",
+    "url": "https://www.appgyver.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Make (formerly Integromat)",
+    "description": "Design, build, and automate anything from tasks and workflows to apps and systems.",
+    "url": "https://www.make.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Audacity",
+    "description": "Free, open source, cross-platform audio software.",
+    "url": "https://www.audacityteam.org/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Mendeley",
+    "description": "A free reference manager and academic social network that can help you organize your research.",
+    "url": "https://www.mendeley.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Cleanup.pictures",
+    "description": "Remove any unwanted object, defect, people, or text from your pictures in seconds.",
+    "url": "https://cleanup.pictures/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "CodiumAI",
+    "description": "AI that generates meaningful tests for busy developers.",
+    "url": "https://www.codium.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Pitch",
+    "description": "Collaborative presentation software for modern teams, now with AI.",
+    "url": "https://pitch.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Waymark",
+    "description": "Effortlessly produce high-impact TV and CTV commercials with AI.",
+    "url": "https://waymark.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Outranking",
+    "description": "AI-powered platform for SEO content strategy, writing, and optimization.",
+    "url": "https://www.outranking.io/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Photosonic",
+    "description": "AI art generator to create unique images from text descriptions.",
+    "url": "https://photosonic.writesonic.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Bito",
+    "description": "The AI assistant that helps developers write code, understand syntax, and more.",
+    "url": "https://bito.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Mural",
+    "description": "A digital workspace for visual collaboration, now with AI capabilities.",
+    "url": "https://www.mural.co/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "LANDR",
+    "description": "AI-powered music mastering, distribution, and plugins for creators.",
+    "url": "https://www.landr.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "IBM Watson Studio",
+    "description": "Build, run and manage AI models. Prepare data and build models on any cloud.",
+    "url": "https://www.ibm.com/cloud/watson-studio",
+    "category": "Research & Data"
+  },
+  {
+    "name": "PatternedAI",
+    "description": "Generate unique, seamless patterns for your product, brand or service using AI.",
+    "url": "https://www.patterned.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Buildbox",
+    "description": "No-code game development platform that allows anyone to create video games.",
+    "url": "https://www.buildbox.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Text Blaze",
+    "description": "Eliminate repetitive typing and mistakes with customizable templates and snippets.",
+    "url": "https://blaze.today/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Synthesys",
+    "description": "Generate realistic, professional voiceovers and videos with AI.",
+    "url": "https://synthesys.io/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Frase.io",
+    "description": "AI-powered tools to research, write, and optimize high-quality SEO content.",
+    "url": "https://www.frase.io/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Fotor",
+    "description": "Free online photo editor with AI photo effects, collage maker, and graphic design tools.",
+    "url": "https://www.fotor.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "FigJam AI",
+    "description": "Brainstorm, create, and summarize ideas on an online whiteboard with AI.",
+    "url": "https://www.figma.com/figjam/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Voice.ai",
+    "description": "Real-time AI voice changer to sound like anyone you want.",
+    "url": "https://voice.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Databricks",
+    "description": "A unified platform for data engineering, data science, and machine learning.",
+    "url": "https://www.databricks.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Spline",
+    "description": "A collaborative 3D design tool for the web. Easily create and publish 3D scenes.",
+    "url": "https://spline.design/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "TeleportHQ",
+    "description": "Collaborative low-code platform that automatically writes code and deploys for you.",
+    "url": "https://teleporthq.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Xembly",
+    "description": "An AI executive assistant that automates tasks like meeting scheduling, note-taking, and follow-ups.",
+    "url": "https://www.xembly.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Animaker",
+    "description": "DIY video animation software for creating animated videos, explainer videos, and more.",
+    "url": "https://www.animaker.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "LEX",
+    "description": "A modern word processor that enables a radically new way to write.",
+    "url": "https://lex.page/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Pixelz",
+    "description": "AI-powered image editing for e-commerce. Background removal, retouching, and more.",
+    "url": "https://www.pixelz.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Windsor.io",
+    "description": "Record one video and send millions of personalized videos to your customers.",
+    "url": "https://www.windsor.io/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Sheet+",
+    "description": "AI-powered tool to convert text into Google Sheets & Excel formulas.",
+    "url": "https://sheetplus.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "iZotope Ozone",
+    "description": "The industry's most comprehensive mastering suite, now with AI-powered assistance.",
+    "url": "https://www.izotope.com/en/products/ozone.html",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "DataRobot",
+    "description": "Enterprise AI platform that democratizes data science and automates the end-to-end process.",
+    "url": "https://www.datarobot.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Simplified",
+    "description": "All-in-one app for modern marketing teams. Design, write, and collaborate with AI.",
+    "url": "https://simplified.com/",
+    "category": "Other"
+  },
+  {
+    "name": "Renderforest",
+    "description": "All-in-one branding platform for creating videos, logos, mockups, and websites.",
+    "url": "https://www.renderforest.com/",
+    "category": "Other"
+  },
+  {
+    "name": "Lovo.ai",
+    "description": "AI voice generator and text-to-speech platform with realistic, human-like voices.",
+    "url": "https://lovo.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Gradio",
+    "description": "Build and share delightful machine learning apps, all in Python.",
+    "url": "https://www.gradio.app/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Durable",
+    "description": "The AI website builder that generates an entire website with images and copy in seconds.",
+    "url": "https://durable.co/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "HitPaw",
+    "description": "AI-powered photo and video enhancement software.",
+    "url": "https://www.hitpaw.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Eightify",
+    "description": "Get AI-powered summaries of YouTube videos in seconds.",
+    "url": "https://eightify.app/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "ImgCreator.ai",
+    "description": "AI image generator for creating art, illustrations, and anime from text.",
+    "url": "https://imgcreator.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Cohere",
+    "description": "AI platform for enterprises, helping businesses build amazing products with language AI.",
+    "url": "https://cohere.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "AssemblyAI",
+    "description": "AI models to transcribe and understand speech.",
+    "url": "https://www.assemblyai.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "H2O.ai",
+    "description": "Open source leader in AI and ML for the enterprise.",
+    "url": "https://h2o.ai/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Magic Eraser",
+    "description": "Remove unwanted things from images in seconds.",
+    "url": "https://www.magiceraser.io/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Replicate",
+    "description": "Run open-source machine learning models with a cloud API.",
+    "url": "https://replicate.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "SlidesAI.io",
+    "description": "Create professional, engaging slides from any text in seconds.",
+    "url": "https://www.slidesai.io/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Yepic AI",
+    "description": "Create and dub videos in minutes. Turn scripts to professional videos with AI avatars.",
+    "url": "https://www.yepic.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Anyword",
+    "description": "AI writing assistant that generates and optimizes copy for marketing.",
+    "url": "https://anyword.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Bigjpg",
+    "description": "Image super-resolution for anime-style images and illustrations using deep convolutional neural networks.",
+    "url": "https://bigjpg.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "OpenRouter",
+    "description": "Access and compare LLMs from any provider with a unified API.",
+    "url": "https://openrouter.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Nanonets",
+    "description": "Automate data entry with AI. Capture data from documents instantly.",
+    "url": "https://nanonets.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Soundful",
+    "description": "Leverage the power of AI to generate royalty-free music at the touch of a button.",
+    "url": "https://soundful.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "KNIME",
+    "description": "The open platform for data science, helping you discover the potential in your data.",
+    "url": "https://www.knime.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "VistaCreate",
+    "description": "A free online graphic design platform with a library of templates and AI tools.",
+    "url": "https://create.vista.com/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Softr",
+    "description": "The easiest way to build a custom web app for your business. No code required.",
+    "url": "https://www.softr.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Bardeen",
+    "description": "Automate your manual workflows with one click. AI-powered automation for everyone.",
+    "url": "https://www.bardeen.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Vidyo.ai",
+    "description": "Make short videos from long ones instantly. Save 90% time and effort.",
+    "url": "https://vidyo.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "GoCharlie",
+    "description": "Generative AI platform for creating images, content, and campaigns.",
+    "url": "https://gocharlie.ai/",
+    "category": "Other"
+  },
+  {
+    "name": "AI21 Labs",
+    "description": "Reimagining the way we read and write with advanced AI and language models.",
+    "url": "https://www.ai21.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "DreamStudio",
+    "description": "The official web interface for Stable Diffusion by Stability AI.",
+    "url": "https://dreamstudio.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Abstra",
+    "description": "The fastest way to build business applications. Code your logic in Python, get a UI instantly.",
+    "url": "https://www.abstra.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Guidde",
+    "description": "Magically create video documentation for your team, customers, and prospects.",
+    "url": "https://www.guidde.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Audo Studio",
+    "description": "Advanced audio cleaning with AI. Remove noise, reduce echo, and enhance speech.",
+    "url": "https://audo.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Papers with Code",
+    "description": "The free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables.",
+    "url": "https://paperswithcode.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Astria",
+    "description": "Tailor-made AI image generation. Create custom visuals for any concept.",
+    "url": "https://www.astria.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Stately.ai",
+    "description": "The state of product is visual. Create logic for apps and workflows with state machines.",
+    "url": "https://stately.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Yatter",
+    "description": "AI-powered content repurposing for social media marketing.",
+    "url": "https://yatter.io/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Gling",
+    "description": "AI tool that saves YouTube creators time by automatically cutting silences and bad takes.",
+    "url": "https://gling.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Neuro-flash",
+    "description": "The #1 AI content suite for marketing teams in Europe.",
+    "url": "https://neuro-flash.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Generated Photos",
+    "description": "Enhance your creative works with photos generated completely by AI.",
+    "url": "https://generated.photos/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Lightning.ai",
+    "description": "The platform for building, training, and deploying AI products at scale.",
+    "url": "https://lightning.ai/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Originality.ai",
+    "description": "The most accurate AI checker for writers and content publishers.",
+    "url": "https://originality.ai/",
+    "category": "Other"
+  },
+  {
+    "name": "Poly AI",
+    "description": "Customer-led voice assistants for the enterprise.",
+    "url": "https://poly.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Weights & Biases",
+    "description": "The developer-first MLOps platform for building better models faster.",
+    "url": "https://wandb.ai/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "WOMBO Dream",
+    "description": "Create beautiful artwork using the power of AI.",
+    "url": "https://dream.ai/create",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Gencraft",
+    "description": "The all-in-one AI content creation suite. Generate images, videos, and more.",
+    "url": "https://gencraft.com/",
+    "category": "Other"
+  },
+  {
+    "name": "WellSaid Labs",
+    "description": "Create voiceovers from text with a library of realistic AI voices.",
+    "url": "https://wellsaidlabs.com/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Reached.ai",
+    "description": "AI tool for crafting hyper-personalized emails and messages for sales outreach.",
+    "url": "https://www.reached.ai/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Textio",
+    "description": "Augmented writing platform that helps you write more inclusive and effective job descriptions.",
+    "url": "https://textio.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Supercreator.ai",
+    "description": "Create short-form videos 10x faster with artificial intelligence.",
+    "url": "https://www.supercreator.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "RunPod",
+    "description": "Rent cloud GPUs for AI and machine learning. Save over 80% on compute.",
+    "url": "https://www.runpod.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Vizcom",
+    "description": "See your drawings come to life in seconds. The AI design tool for creatives.",
+    "url": "https://www.vizcom.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Snorkel AI",
+    "description": "Programmatically label and build datasets for machine learning.",
+    "url": "https://www.snorkel.ai/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Vocal Remover",
+    "description": "Separate voice from music out of a song for free with powerful AI algorithms.",
+    "url": "https://vocalremover.org/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Rask AI",
+    "description": "AI video localization and dubbing tool. Translate your videos with a single click.",
+    "url": "https://www.rask.ai/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Plus AI",
+    "description": "AI for Google Slides and PowerPoint. Create and edit presentations with AI.",
+    "url": "https://www.plusdocs.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "FineTuner.ai",
+    "description": "Create your own AI chatbot trained on your data.",
+    "url": "https://finetuner.ai/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Phind",
+    "description": "The AI search engine for developers. Get instant answers for technical questions.",
+    "url": "https://www.phind.com/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Lexica",
+    "description": "The Stable Diffusion search engine and image generator.",
+    "url": "https://lexica.art/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "Labelbox",
+    "description": "The leading data-centric AI platform for building intelligent applications.",
+    "url": "https://labelbox.com/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Moises.ai",
+    "description": "The musician's app. Isolate vocals, master tracks, and practice with your favorite songs.",
+    "url": "https://moises.ai/",
+    "category": "Voice & Music"
+  },
+  {
+    "name": "Sora",
+    "description": "OpenAI's text-to-video model that can create realistic and imaginative scenes.",
+    "url": "https://openai.com/sora",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Dovetail",
+    "description": "The customer insights hub for all your research data, now with AI-powered analysis.",
+    "url": "https://dovetail.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "NovelAI",
+    "description": "A monthly subscription service for AI-assisted authorship, storytelling, and virtual companionship.",
+    "url": "https://novelai.net/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "CodeSandbox",
+    "description": "An instant cloud development environment for web development projects.",
+    "url": "https://codesandbox.io/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Designs.ai",
+    "description": "Create logos, videos, banners, and mockups with AI in 2 minutes.",
+    "url": "https://designs.ai/",
+    "category": "Image & Design"
+  },
+  {
+    "name": "OctoML",
+    "description": "Deploy and scale machine learning models efficiently.",
+    "url": "https://octoml.ai/",
+    "category": "Research & Data"
+  },
+  {
+    "name": "Flowjin",
+    "description": "AI-powered tool to repurpose audio & video content into engaging social media clips.",
+    "url": "https://www.flowjin.com/",
+    "category": "Video & Animation"
+  },
+  {
+    "name": "Timely",
+    "description": "AI-powered time tracking software that automates company time tracking.",
+    "url": "https://timelyapp.com/",
+    "category": "Productivity & Business"
+  },
+  {
+    "name": "Typefully",
+    "description": "The ultimate tool to write and publish great tweets and threads.",
+    "url": "https://typefully.com/",
+    "category": "Chat & Text"
+  },
+  {
+    "name": "Durable AI",
+    "description": "The AI website builder that generates an entire website with images and copy in seconds.",
+    "url": "https://durable.co/",
+    "category": "Coding & Development"
+  },
+  {
+    "name": "Kore.ai",
+    "description": "Enterprise conversational AI platform for building virtual assistants.",
+    "url": "https://kore.ai/",
+    "category": "Other"
+  },
+  {
+    "name": "Baseten",
+    "description": "Deploy and serve machine learning models with a high-performance backend.",
+    "url": "https://www.baseten.co/",
+    "category": "Other"
+  }
+]

@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to TypeScript",
+    "explanation": "TypeScript is a superset of JavaScript that adds static types. This means you can declare the type of a variable, function parameter, or object property. The main benefit is catching errors during development (at compile time) rather than at runtime. All valid JavaScript code is also valid TypeScript code.",
+    "example": "let message: string = \"Hello, TypeScript!\";\n// message = 123; // This would cause a compile-time error"
+  },
+  {
+    "title": "2. Basic Types",
+    "explanation": "TypeScript provides several basic types that you can use to annotate your variables. These include `string`, `number`, `boolean`, `any` (opt-out of type checking), `unknown` (safer alternative to any), `void` (for functions that don't return a value), `null`, and `undefined`.",
+    "example": "let age: number = 30;\nlet fullName: string = \"John Doe\";\nlet isStudent: boolean = false;"
+  },
+  {
+    "title": "3. Arrays and Tuples",
+    "explanation": "You can define typed arrays in two ways: `type[]` or `Array<type>`. A tuple is a special type of array where the type of a fixed number of elements is known, but they don't have to be the same.",
+    "example": "// Array of numbers\nlet list: number[] = [1, 2, 3];\n\n// Tuple\nlet person: [string, number];\nperson = [\"Chris\", 40]; // OK\n// person = [40, \"Chris\"]; // Error"
+  },
+  {
+    "title": "4. Functions",
+    "explanation": "TypeScript allows you to add types to the parameters and the return value of a function. This makes your functions more predictable and easier to use correctly.",
+    "example": "function add(x: number, y: number): number {\n  return x + y;\n}\n\nlet sum = add(5, 10); // sum is of type number"
+  },
+  {
+    "title": "5. Interfaces",
+    "explanation": "An interface is a way to define the shape of an object. It's like a contract for your code, ensuring that an object has a specific set of properties with specific types. Interfaces are a core part of TypeScript and are used extensively.",
+    "example": "interface User {\n  name: string;\n  id: number;\n  isVerified?: boolean; // Optional property\n}\n\nfunction printUser(user: User) {\n  console.log(`User: ${user.name}, ID: ${user.id}`);\n}"
+  },
+  {
+    "title": "6. Union Types",
+    "explanation": "A union type allows a variable to be one of several types. You can define a union type using the pipe character `|`. This is useful when a value can be one of a few different, but specific, types.",
+    "example": "function printId(id: number | string) {\n  console.log(\"Your ID is: \" + id);\n}\n\nprintId(101); // OK\nprintId(\"abc-101\"); // OK\n// printId({ id: 101 }); // Error"
+  },
+  {
+    "title": "7. Type Aliases",
+    "explanation": "Type aliases allow you to create a new name for a type. They don't create a new type, but rather a new name to refer to that type. They are useful for creating shorter or more descriptive names for complex types, like unions or objects.",
+    "example": "type Point = {\n  x: number;\n  y: number;\n};\n\ntype ID = string | number;\n\nfunction move(point: Point, id: ID) {\n  // ...\n}"
+  },
+  {
+    "title": "8. Classes",
+    "explanation": "TypeScript supports object-oriented programming with classes, similar to languages like Java or C#. You can use features like constructors, properties, methods, inheritance, and access modifiers (`public`, `private`, `protected`).",
+    "example": "class Animal {\n  private name: string;\n\n  constructor(theName: string) {\n    this.name = theName;\n  }\n\n  public move(distance: number): void {\n    console.log(`${this.name} moved ${distance}m.`);\n  }\n}\n\nlet cat = new Animal(\"Cat\");\ncat.move(10);"
+  },
+  {
+    "title": "9. Generics",
+    "explanation": "Generics provide a way to create reusable components that can work over a variety of types rather than a single one. This allows users to consume these components and use their own types. A common example is a generic array `Array<T>` where `T` can be any type.",
+    "example": "function identity<T>(arg: T): T {\n  return arg;\n}\n\nlet output1 = identity<string>(\"myString\");\nlet output2 = identity<number>(123);"
+  },
+  {
+    "title": "10. Enums",
+    "explanation": "Enums allow you to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based enums.",
+    "example": "enum Direction {\n  Up,\n  Down,\n  Left,\n  Right,\n}\n\nlet go: Direction = Direction.Up;\nconsole.log(go); // Outputs: 0"
+  }
+]

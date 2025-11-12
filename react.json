@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to React",
+    "explanation": "React is a JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components'. React is declarative, meaning you describe what your UI should look like, and React handles the rest.",
+    "example": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst element = <h1>Hello, React!</h1>;\n\nReactDOM.render(element, document.getElementById('root'));"
+  },
+  {
+    "title": "2. Understanding JSX",
+    "explanation": "JSX stands for JavaScript XML. It's a syntax extension for JavaScript that looks similar to HTML. JSX allows you to write your UI structure directly within your JavaScript code, making it more readable and expressive. Babel compiles JSX down to `React.createElement()` calls.",
+    "example": "const name = 'Alice';\nconst element = <h1>Hello, {name}</h1>;"
+  },
+  {
+    "title": "3. Functional Components",
+    "explanation": "A component is a reusable, self-contained piece of UI. The simplest way to define a component is to write a JavaScript function. This function accepts a single 'props' object argument and returns a React element.",
+    "example": "function Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}\n\n// Usage:\n<Welcome name=\"Sara\" />"
+  },
+  {
+    "title": "4. Understanding Props",
+    "explanation": "Props (short for properties) are how components pass data to each other. They are passed down from a parent component to a child component. Props are read-only; a component must never modify its own props.",
+    "example": "function UserProfile(props) {\n  return (\n    <div>\n      <p>Name: {props.user.name}</p>\n      <p>Email: {props.user.email}</p>\n    </div>\n  );\n}"
+  },
+  {
+    "title": "5. Introduction to State",
+    "explanation": "State allows a component to 'remember' information and re-render when that information changes. While props are passed into a component from the outside, state is managed from within the component. It's what makes React components dynamic and interactive.",
+    "example": "// This is a conceptual example. The next lesson covers the `useState` hook for managing state."
+  },
+  {
+    "title": "6. The useState Hook",
+    "explanation": "The `useState` hook is the standard way to add state to a functional component. It returns a pair of values: the current state and a function that lets you update it. Calling the update function will trigger a re-render of the component.",
+    "example": "import React, { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n\n  return (\n    <div>\n      <p>You clicked {count} times</p>\n      <button onClick={() => setCount(count + 1)}>\n        Click me\n      </button>\n    </div>\n  );\n}"
+  },
+  {
+    "title": "7. Handling Events",
+    "explanation": "Handling events in React is very similar to handling events on DOM elements, but with a few syntax differences. React events are named using camelCase, and with JSX you pass a function as the event handler, rather than a string.",
+    "example": "function ActionButton() {\n  function handleClick() {\n    alert('Button was clicked!');\n  }\n\n  return (\n    <button onClick={handleClick}>\n      Perform Action\n    </button>\n  );\n}"
+  },
+  {
+    "title": "8. Conditional Rendering",
+    "explanation": "Conditional rendering allows you to render different elements or components based on certain conditions (like the component's state or props). You can use standard JavaScript operators like `if` or the conditional (ternary) operator.",
+    "example": "function Greeting(props) {\n  const isLoggedIn = props.isLoggedIn;\n  if (isLoggedIn) {\n    return <h1>Welcome back!</h1>;\n  }\n  return <h1>Please sign up.</h1>;\n}"
+  },
+  {
+    "title": "9. Rendering Lists and Keys",
+    "explanation": "You can render lists of elements by using JavaScript's `map()` function. When you render a list, React needs a unique `key` prop for each item in the list. Keys help React identify which items have changed, are added, or are removed, which is crucial for performance.",
+    "example": "function NumberList(props) {\n  const numbers = props.numbers;\n  const listItems = numbers.map((number) =>\n    <li key={number.toString()}>\n      {number}\n    </li>\n  );\n  return <ul>{listItems}</ul>;\n}"
+  },
+  {
+    "title": "10. The useEffect Hook",
+    "explanation": "The `useEffect` hook lets you perform side effects in functional components. Side effects are operations like fetching data from an API, setting up a subscription, or manually changing the DOM. `useEffect` runs after every render, or you can control when it runs by passing a dependency array.",
+    "example": "import React, { useState, useEffect } from 'react';\n\nfunction Timer() {\n  const [count, setCount] = useState(0);\n\n  useEffect(() => {\n    // This code runs after the component renders\n    document.title = `You clicked ${count} times`;\n  }, [count]); // Only re-run the effect if count changes\n\n  return <button onClick={() => setCount(c => c + 1)}>Click</button>;\n}"
+  }
+]

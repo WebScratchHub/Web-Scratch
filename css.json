@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to CSS",
+    "explanation": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. CSS describes how HTML elements should be displayed on screen, paper, or in other media, controlling aspects like color, layout, and fonts.",
+    "example": "/* This is a CSS comment */\nbody {\n  background-color: #f0f0f0;\n  font-family: Arial, sans-serif;\n}"
+  },
+  {
+    "title": "2. CSS Selectors",
+    "explanation": "Selectors are used to 'find' or select the HTML elements you want to style. Common selectors include element selectors (e.g., `p`), class selectors (e.g., `.my-class`), and ID selectors (e.g., `#unique-id`).",
+    "example": "/* Element Selector */\np {\n  color: blue;\n}\n\n/* Class Selector */\n.highlight {\n  background-color: yellow;\n}\n\n/* ID Selector */\n#header {\n  border-bottom: 1px solid black;\n}"
+  },
+  {
+    "title": "3. The Box Model",
+    "explanation": "Every HTML element can be considered as a box. The CSS box model is a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. Understanding the box model is fundamental to layout design.",
+    "example": ".box {\n  width: 300px;\n  padding: 20px; /* Space inside the border */\n  border: 5px solid navy;\n  margin: 25px; /* Space outside the border */\n}"
+  },
+  {
+    "title": "4. Margin vs. Padding",
+    "explanation": "Margin and padding are both used to create space, but they serve different purposes. `padding` is the space between the content and the element's border (inside). `margin` is the space outside the element's border, separating it from other elements.",
+    "example": ".element {\n  padding: 15px; /* Creates space inside the element */\n  margin: 10px; /* Creates space around the element */\n}"
+  },
+  {
+    "title": "5. Colors and Backgrounds",
+    "explanation": "CSS allows you to control the colors of text and backgrounds. You can use color names (e.g., `red`), HEX codes (e.g., `#FF0000`), or RGB values (e.g., `rgb(255, 0, 0)`). The `color` property sets the text color, and `background-color` sets the background.",
+    "example": "body {\n  background-color: #333;\n  color: #FFF; /* White text on a dark background */\n}"
+  },
+  {
+    "title": "6. Introduction to Flexbox",
+    "explanation": "Flexbox is a one-dimensional layout model that offers an efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown. To use it, you set a container's `display` property to `flex`.",
+    "example": ".container {\n  display: flex;\n  justify-content: space-around; /* Distributes items along the main axis */\n  align-items: center; /* Aligns items along the cross axis */\n}"
+  },
+  {
+    "title": "7. Introduction to Grid",
+    "explanation": "CSS Grid Layout is a two-dimensional layout system, meaning it can handle both columns and rows. It is the most powerful layout system available in CSS and is ideal for creating complex, responsive web page layouts.",
+    "example": ".wrapper {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr; /* Creates three equal-width columns */\n  gap: 10px; /* Creates a 10px gap between grid items */\n}"
+  },
+  {
+    "title": "8. Media Queries for Responsive Design",
+    "explanation": "Media queries are a key part of responsive design. They allow you to apply CSS rules only when certain conditions are met, such as the screen width being above or below a certain size. This enables you to create different layouts for different devices.",
+    "example": "/* On screens that are 600px wide or less, the background color is blue */\n@media screen and (max-width: 600px) {\n  body {\n    background-color: blue;\n  }\n}"
+  },
+  {
+    "title": "9. CSS Transitions",
+    "explanation": "Transitions allow you to change property values smoothly over a given duration. This can create simple animations without needing complex JavaScript. You define the property to transition, the duration, and optionally a timing function.",
+    "example": "button {\n  background-color: #7B61FF;\n  transition: background-color 0.3s ease-in-out;\n}\n\nbutton:hover {\n  background-color: #00E5FF;\n}"
+  },
+  {
+    "title": "10. CSS Variables",
+    "explanation": "CSS variables (Custom Properties) allow you to store property values for reuse throughout your stylesheet. They are defined using a custom property notation (e.g., `--main-color: black;`) and are accessed using the `var()` function (e.g., `color: var(--main-color);`).",
+    "example": ":root {\n  --primary-color: #7B61FF;\n  --text-color: #E8EAF6;\n}\n\np {\n  color: var(--text-color);\n}\n\na {\n  color: var(--primary-color);\n}"
+  }
+]

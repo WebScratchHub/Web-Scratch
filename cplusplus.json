@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to C++",
+    "explanation": "C++ is a powerful, high-performance general-purpose programming language. It was created as an extension of the C programming language and includes object-oriented features. It is widely used for developing system software, game engines, and high-performance applications.",
+    "example": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}"
+  },
+  {
+    "title": "2. Basic Syntax and Structure",
+    "explanation": "A C++ program consists of various components like preprocessor directives (`#include`), a `main()` function which is the entry point of the program, statements ending with a semicolon, and comments. The `iostream` library is used for input and output operations.",
+    "example": "#include <iostream> // For input/output\n\n// main() is where program execution begins.\nint main() {\n    // A statement\n    std::cout << \"This is a statement.\";\n    return 0; // Terminate main()\n}"
+  },
+  {
+    "title": "3. Variables and Data Types",
+    "explanation": "In C++, you must declare a variable's data type before you can use it. Common data types include `int` (integers), `double` (floating-point numbers), `char` (single characters), `std::string` (sequences of characters), and `bool` (true or false).",
+    "example": "#include <iostream>\n#include <string>\n\nint main() {\n    int age = 25;\n    double price = 19.99;\n    char grade = 'A';\n    std::string name = \"Alex\";\n    bool isComplete = true;\n\n    std::cout << name << \" is \" << age << \" years old.\" << std::endl;\n    return 0;\n}"
+  },
+  {
+    "title": "4. Input and Output (cin/cout)",
+    "explanation": "C++ uses streams for input and output. `std::cout` is used for output (printing to the console), and `std::cin` is used for input (reading from the console). These are part of the `iostream` library.",
+    "example": "#include <iostream>\n#include <string>\n\nint main() {\n    std::string name;\n    std::cout << \"Please enter your name: \";\n    std::cin >> name;\n    std::cout << \"Hello, \" << name << \"!\" << std::endl;\n    return 0;\n}"
+  },
+  {
+    "title": "5. Conditional Statements (if/else)",
+    "explanation": "Conditional statements control the flow of execution based on a condition. The `if` statement executes a block of code if its condition is true. The `else` statement provides an alternative block of code to execute if the condition is false.",
+    "example": "#include <iostream>\n\nint main() {\n    int score = 85;\n    if (score > 80) {\n        std::cout << \"Great job!\" << std::endl;\n    } else {\n        std::cout << \"Keep practicing!\" << std::endl;\n    }\n    return 0;\n}"
+  },
+  {
+    "title": "6. For Loops",
+    "explanation": "A `for` loop is used to repeat a block of code a specific number of times. It consists of three parts: initialization (executed once before the loop), condition (checked before each iteration), and increment/decrement (executed at the end of each iteration).",
+    "example": "#include <iostream>\n\nint main() {\n    for (int i = 0; i < 5; i++) {\n        std::cout << \"Iteration: \" << i << std::endl;\n    }\n    return 0;\n}"
+  },
+  {
+    "title": "7. Functions",
+    "explanation": "Functions are blocks of code that perform a specific task and can be reused. You must declare a function's return type, its name, and its parameters. This helps in organizing code into manageable and modular pieces.",
+    "example": "#include <iostream>\n\n// Function declaration\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    int sum = add(5, 3);\n    std::cout << \"The sum is: \" << sum << std::endl; // Outputs 8\n    return 0;\n}"
+  },
+  {
+    "title": "8. Introduction to Pointers",
+    "explanation": "A pointer is a variable that stores the memory address of another variable. Pointers are a powerful feature of C++ that allow for direct memory manipulation, dynamic memory allocation, and efficient handling of data structures. The `&` operator gets the address of a variable, and the `*` operator dereferences a pointer to get the value at that address.",
+    "example": "#include <iostream>\n\nint main() {\n    int var = 20;\n    int* ptr = &var; // ptr stores the address of var\n\n    std::cout << \"Value of var: \" << var << std::endl;\n    std::cout << \"Address of var: \" << &var << std::endl;\n    std::cout << \"Value of ptr: \" << ptr << std::endl;\n    std::cout << \"Value at ptr address: \" << *ptr << std::endl;\n    return 0;\n}"
+  },
+  {
+    "title": "9. Introduction to Classes and Objects",
+    "explanation": "A class is a blueprint for creating objects. It bundles data (attributes) and methods (functions) that work on the data into a single unit. An object is an instance of a class. This is the foundation of object-oriented programming (OOP).",
+    "example": "#include <iostream>\n#include <string>\n\nclass Dog {\npublic:\n    std::string name;\n    void bark() {\n        std::cout << name << \" says Woof!\" << std::endl;\n    }\n};\n\nint main() {\n    Dog myDog;\n    myDog.name = \"Buddy\";\n    myDog.bark(); // Outputs: Buddy says Woof!\n    return 0;\n}"
+  },
+  {
+    "title": "10. Standard Template Library (STL) - Vector",
+    "explanation": "The STL is a collection of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. `std::vector` is a sequence container that encapsulates dynamic size arrays. It's like a more powerful and flexible version of a standard array.",
+    "example": "#include <iostream>\n#include <vector>\n\nint main() {\n    std::vector<int> numbers;\n    numbers.push_back(10);\n    numbers.push_back(20);\n    numbers.push_back(30);\n\n    for (int num : numbers) {\n        std::cout << num << \" \"; // Outputs: 10 20 30 \n    }\n    std::cout << std::endl;\n    return 0;\n}"
+  }
+]

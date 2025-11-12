@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. The Google Slides Interface",
+    "explanation": "Google Slides is a cloud-based presentation tool. The interface features a menu and toolbar at the top, a slide thumbnail view on the left, the main slide editor in the center, and a speaker notes section at the bottom. Being part of Google Workspace, all your work is saved automatically.",
+    "tip": "Use the 'Explore' button in the bottom right corner to get AI-powered layout suggestions for your slide content."
+  },
+  {
+    "title": "2. Choosing a Theme",
+    "explanation": "Themes provide your presentation with a consistent set of colors, fonts, and layouts. When you create a new presentation, a 'Themes' sidebar appears on the right. You can pick a theme here to instantly give your presentation a professional look. You can change the theme at any time from the 'Theme' menu.",
+    "tip": "You can also import themes from other presentations or from external sources."
+  },
+  {
+    "title": "3. Adding and Managing Slides",
+    "explanation": "You can add a new slide by clicking the '+' button in the toolbar. Clicking the small arrow next to it allows you to choose a specific layout (e.g., Title and Body, Two Columns). You can reorder slides by dragging and dropping them in the thumbnail view on the left.",
+    "tip": "Right-click on a slide thumbnail to access options like 'Duplicate slide', 'Skip slide', or 'Change layout'."
+  },
+  {
+    "title": "4. Inserting Text, Images, and Shapes",
+    "explanation": "Use the 'Insert' menu or the toolbar icons to add various elements to your slides, including text boxes, images, shapes, and videos. Once an object is on the slide, you can drag it to move it, use the handles to resize it, and use the toolbar to format it.",
+    "tip": "Hold the 'Shift' key while resizing an image or shape to maintain its aspect ratio and prevent distortion."
+  },
+  {
+    "title": "5. Using Speaker Notes",
+    "explanation": "The speaker notes section at the bottom of the screen is your private space to add talking points, reminders, or detailed scripts for each slide. These notes are visible to you in Presenter View but are hidden from your audience.",
+    "tip": "You can resize the speaker notes panel by dragging the divider line up or down to give yourself more space to write."
+  },
+  {
+    "title": "6. Slide Transitions",
+    "explanation": "Transitions are the effects used to move from one slide to the next. You can add them by selecting a slide and clicking the 'Transition' button in the toolbar. A sidebar will open where you can choose an effect (like Fade, Slide, or Flip) and adjust its speed. It's best to use subtle and consistent transitions.",
+    "tip": "Click the 'Apply to all slides' button in the transition sidebar to quickly make your entire presentation consistent."
+  },
+  {
+    "title": "7. Object Animations",
+    "explanation": "Animations control how individual objects (like text or images) appear on a slide. Select an object, then click 'Animate' from the 'Insert' menu or right-click the object. You can make objects fade in, fly in, or appear on click. This is useful for revealing points one by one.",
+    "tip": "Use the 'Animation pane' to reorder animations or set them to start 'With previous' or 'After previous' for more complex sequences."
+  },
+  {
+    "title": "8. Editing the Master Slides",
+    "explanation": "The Theme Builder (or Master Slides) lets you edit the underlying layouts of your presentation. Go to View > Theme Builder. Changes you make here—like adding a logo or changing the font for all titles—will be applied to every slide that uses that layout. This is essential for consistency and branding.",
+    "tip": "Edit the top-level Master slide to make a change that affects all other layouts."
+  },
+  {
+    "title": "9. Collaboration and Commenting",
+    "explanation": "Like other Google Workspace apps, Slides excels at collaboration. Click the 'Share' button to invite others to edit or comment on your presentation in real time. You can highlight any object or text and insert a comment to leave feedback without changing the content.",
+    "tip": "Use the 'Present' button inside the comment window to assign a comment as a task to a collaborator."
+  },
+  {
+    "title": "10. Presenting Your Slideshow",
+    "explanation": "To start your presentation, click the 'Slideshow' button in the top right. This will go into full-screen mode. If you have a second monitor, Slides will automatically use Presenter View, which shows you your speaker notes, a timer, and a preview of the next slide, while the audience only sees the main slide.",
+    "tip": "In Presenter View, you can use the 'Q&A' feature to start a live Q&A session where your audience can submit questions from their devices."
+  }
+]

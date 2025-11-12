@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. Introduction to PHP",
+    "explanation": "PHP (Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. It runs on the server, generating HTML which is then sent to the client.",
+    "example": "<?php\n// This is a PHP comment\necho \"Hello, World!\";\n?>"
+  },
+  {
+    "title": "2. Basic Syntax",
+    "explanation": "A PHP script is executed on the server, and the plain HTML result is sent back to the browser. A PHP script can be placed anywhere in the document. A PHP script starts with `<?php` and ends with `?>`. Statements end with a semicolon.",
+    "example": "<!DOCTYPE html>\n<html>\n<body>\n\n<h1>My first PHP page</h1>\n\n<?php\necho \"Hello from PHP!\";\n?>\n\n</body>\n</html>"
+  },
+  {
+    "title": "3. Variables",
+    "explanation": "In PHP, a variable starts with the `$` sign, followed by the name of the variable. Variable names are case-sensitive. Unlike statically typed languages, you do not need to declare the data type of a variable in advance.",
+    "example": "<?php\n$txt = \"Hello world!\";\n$x = 5;\n$y = 10.5;\n\necho $txt;\necho \"<br>\";\necho $x + $y;\n?>"
+  },
+  {
+    "title": "4. echo and print Statements",
+    "explanation": "There are two basic ways to get output in PHP: `echo` and `print`. They are more or less the same. They are both used to output data to the screen. `echo` has no return value while `print` has a return value of 1 so it can be used in expressions. `echo` is marginally faster.",
+    "example": "<?php\n$name = \"John\";\necho \"<h2>Hello, \" . $name . \"!</h2>\"; // Concatenation with .\n?>"
+  },
+  {
+    "title": "5. PHP Superglobals - $_GET",
+    "explanation": "Superglobals are built-in variables that are always available in all scopes. `$_GET` is used to collect data from a form submission with `method=\"get\"` or from data in the URL's query string. It is an associative array of variables passed to the current script via the URL parameters.",
+    "example": "// URL: index.php?name=Alice&age=30\n\n<?php\necho \"Hello, \" . $_GET['name'] . \"!\";\n?>"
+  },
+  {
+    "title": "6. PHP Superglobals - $_POST",
+    "explanation": "`$_POST` is used to collect form data after submitting an HTML form with `method=\"post\"`. `$_POST` is also an associative array. Information sent via POST is not visible in the URL, making it more secure for sensitive data.",
+    "example": "<!-- HTML Form -->\n<form action=\"welcome.php\" method=\"post\">\n  Name: <input type=\"text\" name=\"name\"><br>\n  <input type=\"submit\">\n</form>\n\n<!-- welcome.php -->\n<?php\necho \"Welcome, \" . $_POST['name'] . \"!\";\n?>"
+  },
+  {
+    "title": "7. Conditional Statements (if/else)",
+    "explanation": "Conditional statements are used to perform different actions based on different conditions. The `if`, `elseif`, and `else` statements allow you to control the flow of your script.",
+    "example": "<?php\n$t = date(\"H\");\n\nif ($t < \"12\") {\n    echo \"Have a good morning!\";\n} elseif ($t < \"18\") {\n    echo \"Have a good day!\";\n} else {\n    echo \"Have a good night!\";\n}\n?>"
+  },
+  {
+    "title": "8. Arrays",
+    "explanation": "An array stores multiple values in one single variable. PHP supports indexed arrays, associative arrays (with named keys), and multidimensional arrays.",
+    "example": "<?php\n// Indexed array\n$cars = array(\"Volvo\", \"BMW\", \"Toyota\");\necho \"I like \" . $cars[0] . \".\";\n\n// Associative array\n$age = array(\"Peter\"=>\"35\", \"Ben\"=>\"37\");\necho \"Peter is \" . $age['Peter'] . \" years old.\";\n?>"
+  },
+  {
+    "title": "9. For Loops",
+    "explanation": "Loops are used to execute the same block of code again and again, as long as a certain condition is true. The `for` loop is used when you know in advance how many times the script should run.",
+    "example": "<?php\nfor ($x = 0; $x <= 5; $x++) {\n    echo \"The number is: $x <br>\";\n}\n?>"
+  },
+  {
+    "title": "10. Functions",
+    "explanation": "A function is a block of statements that can be used repeatedly in a program. A function will not execute automatically when a page loads. A function will be executed by a call to the function.",
+    "example": "<?php\nfunction writeMsg($name) {\n    echo \"Hello, $name!\";\n}\n\nwriteMsg(\"World\"); // call the function\n?>"
+  }
+]

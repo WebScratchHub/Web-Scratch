@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. The Word Interface (Ribbon)",
+    "explanation": "The Ribbon is the main command bar at the top of the Word window. It's organized into tabs (like Home, Insert, Design, Layout). Each tab contains groups of related commands. For example, the Home tab contains the Font group for text formatting and the Paragraph group for alignment.",
+    "tip": "Double-click any tab to collapse the Ribbon and get more writing space. Double-click it again to bring it back."
+  },
+  {
+    "title": "2. Basic Text Formatting",
+    "explanation": "You can change the appearance of your text to add emphasis or structure. The most common tools are Bold, Italic, and Underline. You can also change the font, size, and color of your text. All these options are in the Font group on the Home tab.",
+    "tip": "Use the shortcut keys: Ctrl+B for Bold, Ctrl+I for Italic, and Ctrl+U for Underline."
+  },
+  {
+    "title": "3. Paragraph Formatting and Alignment",
+    "explanation": "Paragraph formatting controls how your text is aligned and spaced. You can align text to the left, center, right, or justify it for a clean block look. You can also adjust line spacing (e.g., single, double) and add space before or after paragraphs. Find these in the Paragraph group on the Home tab.",
+    "tip": "The 'Show/Hide ¶' button in the Paragraph group reveals formatting marks like spaces and paragraph breaks, which is very helpful for troubleshooting layout issues."
+  },
+  {
+    "title": "4. Using Styles for Consistency",
+    "explanation": "Styles are pre-defined sets of formatting for headings, paragraphs, and other text. Using styles (like Heading 1, Heading 2, Normal) from the Styles gallery on the Home tab ensures your document has a consistent look and feel. It also makes it easy to update formatting globally.",
+    "tip": "Modifying a style (e.g., changing the color of 'Heading 1') will automatically update every piece of text that uses that style throughout your document."
+  },
+  {
+    "title": "5. Inserting and Formatting Tables",
+    "explanation": "Tables are perfect for organizing data in rows and columns. Go to the Insert tab and click Table to create one. Once a table is created, two new contextual tabs, 'Table Design' and 'Layout', will appear on the Ribbon, allowing you to customize its appearance and structure.",
+    "tip": "Press the Tab key when you're in the last cell of a table to quickly add a new row."
+  },
+  {
+    "title": "6. Headers, Footers, and Page Numbers",
+    "explanation": "Headers and footers are areas at the top and bottom of each page where you can place repeating information like page numbers, document titles, or dates. You can add them from the Insert tab. Once you're editing a header or footer, a 'Header & Footer' tab will appear with more options.",
+    "tip": "Check 'Different First Page' in the Header & Footer tab options to remove the header/footer from your title page."
+  },
+  {
+    "title": "7. Inserting Images and Wrapping Text",
+    "explanation": "To add an image, go to the Insert tab and choose Pictures. Once an image is selected, the 'Picture Format' tab appears. The most important option here is 'Wrap Text', which controls how your text flows around the image (e.g., 'Square' or 'Tight').",
+    "tip": "Hold the Shift key while resizing an image to maintain its original proportions and avoid stretching it."
+  },
+  {
+    "title": "8. Creating Bulleted and Numbered Lists",
+    "explanation": "Lists help organize information and make it easier to read. You can create bulleted or numbered lists using the buttons in the Paragraph group on the Home tab. You can also create multi-level lists for more complex outlines.",
+    "tip": "Type `*` followed by a space to automatically start a bulleted list, or `1.` followed by a space to start a numbered list."
+  },
+  {
+    "title": "9. Using Spell Check and Grammar Check",
+    "explanation": "Word automatically checks your spelling and grammar as you type. Misspelled words are underlined in red, and potential grammar issues are underlined in blue. You can right-click a marked word for suggestions or go to the Review tab and click 'Spelling & Grammar' for a full document review.",
+    "tip": "Press `F7` to start a full spelling and grammar check of your document."
+  },
+  {
+    "title": "10. Saving and Exporting to PDF",
+    "explanation": "To save your work, go to File > Save As. You can save it as a Word Document (`.docx`). To create a non-editable version for sharing, it's best to export it as a PDF. Go to File > Export > Create PDF/XPS Document. PDFs preserve your formatting and are viewable on almost any device.",
+    "tip": "When saving as a PDF, click 'Options' to choose whether to export the whole document or just a selection of pages."
+  }
+]

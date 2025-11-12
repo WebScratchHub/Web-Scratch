@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. The Google Docs Interface",
+    "explanation": "Google Docs is a cloud-based word processor. Its interface is clean and simple, featuring a menu bar (File, Edit, etc.) and a toolbar with icons for common formatting tasks like changing fonts, alignment, and creating lists. Because it's a web app, your work is saved automatically to Google Drive.",
+    "tip": "Use the 'Search the menus' box (or press Alt + /) to quickly find a command without hunting through the menus."
+  },
+  {
+    "title": "2. Sharing and Collaboration",
+    "explanation": "Real-time collaboration is the key feature of Google Docs. Click the 'Share' button to invite others to view, comment, or edit the document with you. You can see their cursors and watch them type live. This is perfect for group projects and team feedback.",
+    "tip": "You can change sharing permissions at any time, or generate a shareable link for broader access."
+  },
+  {
+    "title": "3. Using Comments and Suggestions",
+    "explanation": "Instead of directly editing, you can leave comments or make suggestions. To comment, highlight text and click the comment icon that appears. To make suggestions, switch from 'Editing' mode to 'Suggesting' mode in the top-right. Your changes will appear as tracked changes that the document owner can accept or reject.",
+    "tip": "Use the `@` symbol in a comment to mention a collaborator and send them an email notification."
+  },
+  {
+    "title": "4. Basic Formatting and Styles",
+    "explanation": "Just like a traditional word processor, you can format your text using the toolbar. More importantly, you should use Styles (like 'Heading 1', 'Heading 2', 'Title') to structure your document. Using styles keeps your formatting consistent and automatically builds a document outline.",
+    "tip": "To see your document's structure, go to View > Show document outline. This creates a navigable sidebar based on your headings."
+  },
+  {
+    "title": "5. Inserting Images and Tables",
+    "explanation": "Use the 'Insert' menu to add images, tables, drawings, charts, and more to your document. When you insert an image, you can click on it to get options for how text should wrap around it.",
+    "tip": "You can insert images directly from a Google Search, your Google Drive, or by URL without leaving Google Docs."
+  },
+  {
+    "title": "6. Headers, Footers, and Page Numbers",
+    "explanation": "Headers and footers are sections at the top and bottom of each page for repeating content like page numbers or a document title. You can add them via the 'Insert' menu. Once added, you can edit them by double-clicking in the header or footer area.",
+    "tip": "Check the 'Different first page' option if you want to have a different header/footer (or none at all) on your title page."
+  },
+  {
+    "title": "7. Version History",
+    "explanation": "Google Docs saves a detailed history of all changes made to your document. Go to File > Version history > See version history to view, restore, or even name previous versions of your document. This is a lifesaver if you accidentally delete something important.",
+    "tip": "You can 'Name' a specific version (e.g., 'Final Draft before review') to make it easy to find later."
+  },
+  {
+    "title": "8. Using Add-ons",
+    "explanation": "You can extend the functionality of Google Docs with add-ons. Go to Extensions > Add-ons > Get add-ons to browse a marketplace of tools for things like creating bibliographies, adding diagrams, or creating mailing labels. Popular add-ons include Grammarly and Lucidchart.",
+    "tip": "Add-ons can greatly enhance your workflow, so it's worth exploring the marketplace for tools that fit your needs."
+  },
+  {
+    "title": "9. Voice Typing",
+    "explanation": "Google Docs has a built-in speech-to-text feature. Go to Tools > Voice typing to open a microphone panel. Click the microphone and start speaking, and Docs will transcribe your words into the document. It's a great tool for hands-free writing or brainstorming.",
+    "tip": "You can also say commands like 'new paragraph' or 'period' to format the document as you speak."
+  },
+  {
+    "title": "10. Downloading in Different Formats",
+    "explanation": "While Google Docs is a cloud tool, you can easily download your document for offline use or to share with people who don't use Google Docs. Go to File > Download to export your document as a Microsoft Word (.docx), PDF, Plain Text (.txt), and other formats.",
+    "tip": "Downloading as a PDF is the best way to ensure your formatting looks exactly the same for everyone who views the document."
+  }
+]

@@ -1,0 +1,53 @@
+
+[
+  {
+    "title": "1. What is Trello? Boards, Lists, and Cards",
+    "explanation": "Trello is a visual collaboration tool that organizes your projects into boards. In one glance, Trello tells you what's being worked on, who's working on what, and where something is in a process. The three main components are: Board (the project), Lists (the stages of the workflow), and Cards (the individual tasks).",
+    "tip": "Think of Trello as a digital whiteboard with sticky notes that you can move around."
+  },
+  {
+    "title": "2. Creating Your First Board and Lists",
+    "explanation": "A Board typically represents a project or a team. When you create a board, you can then add Lists to it. Lists represent the stages of your workflow. A classic and simple workflow is 'To Do', 'Doing', and 'Done'. You can add, rename, and drag lists to customize your workflow.",
+    "tip": "You can change the background of your board to a color or a photo to personalize it."
+  },
+  {
+    "title": "3. Adding and Managing Cards",
+    "explanation": "Cards represent tasks or ideas. You add cards to lists by clicking 'Add a card' at the bottom of a list. The most basic action in Trello is dragging and dropping a card from one list to another to show its progress through the workflow.",
+    "tip": "You can quickly add multiple cards by typing a title, pressing Enter, typing another title, and so on."
+  },
+  {
+    "title": "4. The Anatomy of a Card (The 'Back')",
+    "explanation": "Clicking on a card opens its 'back', which contains more details. Here you can add a description, comments, members, labels, checklists, attachments, and due dates. This is where you store all the information related to the task.",
+    "tip": "Use Markdown in the card description to format your text with headings, bold, italics, and lists."
+  },
+  {
+    "title": "5. Using Labels for Organization",
+    "explanation": "Labels are a great way to visually categorize your cards. You can create labels with different colors and names (e.g., 'Bug', 'Feature', 'Urgent'). This allows you to quickly see the type or priority of tasks at a glance.",
+    "tip": "You can filter the board by labels to only see cards of a certain category. Press 'F' to open the filter menu."
+  },
+  {
+    "title": "6. Adding Checklists to Cards",
+    "explanation": "For tasks that have multiple sub-tasks, you can add a checklist. This helps break down the work into smaller, manageable steps. As you complete items, a progress bar on the front of the card will update.",
+    "tip": "You can copy and paste a list of items from a text document directly into a new checklist item to create multiple items at once."
+  },
+  {
+    "title": "7. Setting Due Dates",
+    "explanation": "You can add a due date to a card to keep track of deadlines. When a due date is approaching, a badge will appear on the card. The badge will turn red when the card is past due. This helps in prioritizing and managing time-sensitive tasks.",
+    "tip": "You can view all cards with due dates in a calendar view by enabling the 'Calendar' Power-Up."
+  },
+  {
+    "title": "8. Inviting Members and Collaboration",
+    "explanation": "Trello is built for teamwork. You can invite people to your board to collaborate. Once they are members, you can assign them to cards, and they can move cards, add comments, and contribute to the project. Use the `@` symbol in a comment to mention another board member.",
+    "tip": "You can drag a member's avatar onto a card to assign it to them."
+  },
+  {
+    "title": "9. Introduction to Power-Ups",
+    "explanation": "Power-Ups add extra features and integrations to your Trello boards. You can add things like a Calendar view, voting capabilities, or connect Trello to other apps like Google Drive, Slack, or GitHub. Each board can have one Power-Up for free, or unlimited with a paid plan.",
+    "tip": "The 'Card Aging' Power-Up is a great visual tool that makes cards fade over time if they haven't been touched, helping you spot stale tasks."
+  },
+  {
+    "title": "10. Butler: Trello's Automation Bot",
+    "explanation": "Butler allows you to automate actions on your Trello board. You can create rules, card buttons, and board buttons to perform actions automatically. For example, you can create a rule that 'when a card is moved to the 'Done' list, mark the due date as complete'.",
+    "tip": "Start with simple automations, like creating a card button that automatically adds a specific checklist to a card."
+  }
+]
